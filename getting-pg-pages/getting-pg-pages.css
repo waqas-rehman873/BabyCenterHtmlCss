@@ -1,0 +1,57 @@
+.sub-ovulation-links{
+    font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 15px 25px;
+  text-align: center;
+  line-height: 2rem;
+}
+.sub-ovulation-links-a{
+    font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 2rem;
+  color: #016174;
+  text-decoration: none;
+  font-family: 'Montserrat','Arial',sans-serif;
+}
+.sub-ovulation-links div:first-child:after {
+    content: '•';
+    display: inline-block  ;
+    width: 1rem;
+}
+.blue-line{
+    overflow: visible;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8px;
+    background-color: rgb(216, 240, 245);
+  margin-bottom: 3px;
+}
+.btn-fertile{
+    background-color: #016174;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+@media (min-width:768px) {
+    .sub-ovulation-links{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+    }.sub-ovulation-links div:first-child:after {
+        margin: 0 14px;
+    }  
+}
+/* hover */
+.btn-fertile:hover{
+    background-color: #004857;
+}
