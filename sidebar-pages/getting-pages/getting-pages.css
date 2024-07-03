@@ -1,0 +1,563 @@
+.list-site{
+    border-radius: 100px;
+    padding: 5px 10px;
+    line-height: 1.125rem;
+    list-style-type: none;
+    display: list-item;
+    text-align: center;
+    background-color: #D8F0F5;
+}
+.list-site a{
+    text-decoration: none;
+    color: #56584B;
+}
+.ovulation-nav{
+    padding: 20px 0;
+}
+.ovulation-nav ol{
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    margin: 0%;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #56584B;
+    
+}
+.list-site a{
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 2rem;
+    color: #016174;
+    text-decoration: none;
+    font-family: 'Montserrat','Arial',sans-serif;
+}
+.sub-ovulation-links{
+    font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 15px 25px;
+  text-align: center;
+  line-height: 2rem;
+}
+.sub-ovulation-links-a{
+    font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 2rem;
+  color: #016174;
+  text-decoration: none;
+  font-family: 'Montserrat','Arial',sans-serif;
+}
+.sub-ovulation-links div:first-child:after {
+    content: '•';
+    display: inline-block  ;
+    width: 1rem;
+}
+.blue-line{
+    overflow: visible;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 8px;
+    background-color: rgb(216, 240, 245);
+  margin-bottom: 3px;
+}
+.btn-fertile{
+    background-color: #016174;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+/* ovulation calculation page */
+.cal-box{
+    color: #000;
+    font-weight: 400;
+}
+.blue-thick-line{
+    overflow: visible;
+    position: relative;
+    display: flex;
+    -moz-box-pack: center;
+    justify-content: center;
+    -moz-box-align: center;
+    align-items: center;
+    width: 100%;
+    height: 8px;
+    background-color: rgb(216, 240, 245);
+    margin-bottom: 3px;
+}
+.icon-cal{
+    position: absolute;
+    width: 50px;
+}
+.blue-rectangle{
+    background-color: rgb(235, 247, 250);
+  padding: 34px 12px 28px;
+}
+.ovulation-list li{
+    position: relative;
+  padding-left: 20px;
+  margin:0 0 1em;
+}
+.ovulation-list li a{
+    color: #000;
+text-decoration: none;
+border-bottom: 2px solid #43A189;
+}
+.ovulation-list li::before {
+    content: '•';
+    color: #43A189;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    font-size: 2.5rem;
+    display: block;
+    width: 20px;
+    margin-top:-18px;
+  }
+  .screen-margin{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .faq-heading{
+    background: none rgb(1, 113, 135);
+    color: rgb(255, 255, 255);
+    border-radius: 8px 8px 0px 0px;
+    padding: 23px 16px;
+    margin-bottom: 10px;
+    font-family: Domine, Georgia, serif;
+    font-size: 30px;
+    line-height: 34px;
+  }
+  .expand-collapse-faq::before{
+    content: "";
+    position: absolute;
+    right: 11px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 11px;
+    width: 17px;
+    transition: all 0.1s linear;
+    background: url(https://assets.babycenter.com/ims/2021/06/ic_itemexpand.svg) no-repeat center;
+  }
+  .faq-heading-body{
+    padding-left: 10px;
+    background-color: rgb(242, 246, 246);
+    border-radius: 8px;
+    padding-right: 10px;
+
+  }
+  .faq-item-box{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .faq-item-btn{
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+  }
+  .faq-item-btn h4{
+    color: #000;
+    position: relative;
+    flex-grow: 1;
+    margin-bottom: 0%;
+    font-weight: 700;
+    font-size: 1.125rem;
+    margin: 0 0 10px 0;
+  }
+  .faq-heading-text{
+    letter-spacing: -0.1px;
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  padding: 8px 16px 16px;
+  border-radius: 8px;
+  background-color: rgb(242, 246, 246);
+  }
+  .promo-ovul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }
+  .card-ovul{
+    margin-bottom: 10px;
+    max-width: 100%;
+    flex-basis: 100%;
+    padding: 8px;
+    box-sizing: border-box
+  }
+  .heading-ovul{
+    font-weight: bold;
+    margin-bottom: 5px;
+    line-height: 1.375rem;
+    box-sizing: inherit;
+    border-bottom: 2px solid transparent;
+  }
+  .ovul-textlinks{
+    flex-grow: 1;
+    margin-left: 10px;
+    box-sizing: border-box;
+  }
+  .img-ovul{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  .span-ovul{
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100px;
+  }
+  .tag-ovul{
+    display: flex;
+  }
+  .hidden{
+    display: none;
+  }
+  .hidden2{
+    display: none;
+  }
+  .hidden3{
+    display: none;
+  }
+  .get-fast-ordered-list li a{
+    text-decoration: none;
+    border-bottom: 2px solid #3CB6CE;
+    color: #000;
+
+  }
+  .get-fast-texts-box h2{
+    text-align: left ;
+  }
+  .get-fast-texts-box h3{
+    text-align: left ;
+  }
+  .get-fast-texts-box p a{
+ text-decoration: none;
+ border-bottom: 2px solid #3CB6CE;
+ color: #000;
+  }
+  .text-page-article{
+    margin: 0px 14px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(86, 88, 75);
+  text-transform: uppercase;
+  }
+  .wing{
+    position: relative;
+    min-width: -1px;
+    flex-grow: 1;
+  }
+  .wing::after{
+    content: "";
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  border-top: 1px solid rgb(194, 194, 188);
+  width: 100%;
+  transform: translateY(-50%);
+  }
+  .img-fluid-hero{
+    position: absolute;
+    inset: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    border: none;
+    margin: auto;
+    display: block;
+    width: 0px;
+    height: 0px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .answer-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #f2f6f6;
+    width: 100%;
+    border-radius: 5px;
+    color:#016174;
+  }
+  .body-text-answer{
+    color:#016174;
+    padding: 12.5px 10px 13px 12.5px;
+}
+  .answer-q{
+    color:#016174;
+    background-color: #F2F6F6;
+    margin-bottom: 5px;
+  }
+  .body-txt-p a{
+    text-decoration: none;
+    border-bottom: 2px solid #3CB6CE;
+    color: #000;
+  }
+  .content-table{
+    border-spacing: 2px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .content-table tr{
+    display: table-row;
+    border-top: 1px dotted #C2C2BC;
+  }
+  .content-table th {
+    border: none;
+    padding: 13px 13px 8px;
+    text-align: left;
+  }
+  .content-table th{
+    padding-left: 0%;
+  }
+  .content-table td{
+    border: none;
+    padding: 13px 13px 18px;
+  }
+  .content-table td{
+    padding-left: 0%;
+  }
+  .faq-heading-body p a{
+    text-decoration: none;
+    border-bottom: 2px solid #3CB6CE;
+color: #000;
+
+  }
+
+  .caption{
+    color: #56584B;
+    font-size: 0.75rem;
+    margin-top: 4px;
+    line-height: normal;
+    text-align: right;
+  }.btn-names-year{
+
+    color: #016174 !important;
+    font-weight: 800 !important;
+  }
+  .btn-names-year svg{
+    width: 20px;
+    margin-top: -4px;
+    fill: #016174;
+  }
+  .article-links{
+      padding: 10px 0px 0px 40px;
+      margin: 0px;
+      line-height: 162.5%;
+  }
+  .article-links li{
+    margin: 0 0 0.5em;
+  }
+  .article-links a{
+    text-decoration: none;
+    border-bottom: none;
+    color: #016174;
+  }
+  .baby-names-table{
+    width: 100%;
+    border-collapse: collapse;
+  background-color: #FFF;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(128,124,124,0.5)
+  }
+  .baby-names-table tr {
+    border-bottom: 1px solid #C2C2BC;
+    height: 52px;
+  } .baby-names-table td:first-child{
+    text-align: center;
+    font-weight: 800;
+  }
+  .baby-names-table td{
+    text-align: left; 
+  }
+.baby-names-table th{
+  text-align: left; 
+}
+.top-names-wrapper{
+  max-width: 828px;
+  margin: 0 auto;
+  background-color: #F2F6F6;
+  padding: 11px 10px 13px;
+}
+.textLinks a{
+  text-decoration: none!important;
+  color: #016174 !important;
+  cursor: pointer;
+}.overTheOval{
+  position: absolute;
+  top:293px;
+  left: 50%;
+  transform: translate(-50%,0px);
+  width: 100%;
+  font-weight: bold;
+  line-height: 24px;
+}
+.oval{
+    position: absolute;
+    top: 420px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    background-color: rgb(247, 247, 246);
+    width: 597px;
+    height: 289px;
+    box-shadow: rgba(7, 7, 7, 0.145) 0px -2px 6px;
+    border-radius: 50% 50% 0px 0px;
+}
+.app-icon{
+  display: block;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.call-to-action{
+    margin:14px 0;
+    color: #000;
+    width: 95%;
+    font-weight: bold;
+}
+.container-box-app{
+    max-width: 828px;
+    position: relative;
+    background-color: rgb(97, 146, 33);
+    border-radius: 10px;
+    text-align: center;
+    overflow: hidden;
+    height: 500px;
+    margin: 0px auto 24px;
+}
+.form-check-input:checked {
+    background-color: #000 ;
+    border-color: #050505;
+    color: #000;
+}
+.origin{
+    width: 100%;
+    padding: 10px!important;
+    border: 1px solid #ccc!important;
+    border-radius: 4px!important;
+    box-sizing: border-box;
+    font-size: 16px;
+    margin-top: 6px!important;
+}
+#originSelect option:hover{
+    background-color: #73949b!important;
+}
+.no-focus-shadow :focus {
+    box-shadow: none !important;
+}
+.origin :focus{
+  border-color: #ccc!important;
+}
+ 
+@media (min-width:1024px) {
+  .modal-box-filter{
+    width: 768px!important;
+    max-width: none!important;
+  }
+}
+@media (min-width:768px) {
+    .sub-ovulation-links{
+        display: flex;
+        flex-wrap:wrap;
+        justify-content: center;
+    }.sub-ovulation-links div:first-child:after {
+        margin: 0 14px;
+    }.top-names-wrapper{
+      padding: 22px 24px 24px ;
+    }  .oval {
+      top: 420px;
+      width: 970px;}
+}
+@media (max-width:520px) {
+    .list-site a{
+     font-size: 0.75rem;
+     line-height: 1rem;
+    }.left-side-comm h2,h3{
+      margin-left: 0 !important;
+    }.form-box{
+      padding-left: 0 !important;
+    }.gender-option{
+      margin-left:25px;
+    }
+}
+@media(max-width:768px){
+    .screen-margin{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }.content-table {
+        width: 100%;
+        display: inline-block;
+        overflow-x: scroll;}
+    .modal-box-filter{
+        width: 100%!important;
+        max-width: none!important;
+        margin: 0%!important;
+        height: 100%!important;
+        }   
+}
+/* hover */
+.btn-fertile:hover{
+    background-color: #004857;
+}
+.baby-names-a:hover{
+    border-bottom: 2px solid #004857;
+}
+.answer-q:hover{
+    border-radius: 5px;
+    background-color: #297D68;
+    color: #FFF;
+
+}
+ .body-text-answer:hover{
+        color: #FFF;
+    border-radius: 5px;
+        background-color: #297D68;
+        cursor: pointer;
+        font-weight: bold
+} 
+.answer-q:selected{
+    border-radius: 5px;
+    background-color: #297D68;
+    color: #FFF;
+
+}
+.list-site a:hover{
+    border-bottom:2px solid #3CB6CE;
+
+}
+.author-hover:hover{
+    border-bottom:2px solid #3CB6CE;
+
+}
+.article-links a:hover{
+  border-bottom:1px solid #3CB6CE;
+
+}
+.basic-links a:hover{
+  border-bottom: 2px solid #3CB6CE;
+
+}
+.textLinks a:hover{
+border-bottom: 2px solid #3CB6CE;
+}

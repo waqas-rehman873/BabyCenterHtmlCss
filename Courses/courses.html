@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Courses</title>
+    <link rel="stylesheet" href="../Getting/getting.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha384-GLhlTQ8iN17IiIYBcNv38/JLXRYYBh1S0zI5526eF00qOOpl/6Qpru7JFA5Pi1Sv" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+     <!-- Font Awesome for star icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-xIYHvhNvXh+L4jZQ9N3L/zFirhBZ8gvElc+1GUQcA6zhaP5egXEk34Qf+0z9aIEXlj6zkuCpMz9c5DwscCCQLg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- /babyCenter page/ -->
+    <link  rel="StyleSheet" href="../StyleSheet.css" >
+    <!-- <link rel=”stylesheet” href=”https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css”> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="../Getting/getting.css">
+    <link rel="stylesheet" href="./courses.css">
+
+
+</head>
+<body>
+    <script>window.addEventListener('scroll', function() {
+        document.body.classList.toggle('scrolled', window.scrollY > 0);
+      });
+     </script> 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <div>
+            <!-- modal popup log in  -->
+            <div style="display: flex;justify-content: center;align-items: center;">
+                <div class="modal" tabindex="-1" id="modalLogin" style="border-radius: 10px;">
+                    <div class="modal-dialog" >
+                    <!-- Your login form content goes here -->
+                    <div class="modal-content">
+                            <button  class="btn-close login-close-btn" data-bs-dismiss="modal"></button>
+                    
+                        <div class="login-container modal-body ">
+                        
+                        <form class="login-form-reg">
+                            <div class="basic-links spacer-sm">
+                            <a href="#" role="button" tabindex="0">New to BabyCenter? Join now!</a>
+                            </div>
+                            <h2 class="login-dialog-title">Please log in</h2>
+                            <div class="form-control-reg">
+                            <label for="email">Email address:</label>
+                            <input type="email" id="email" placeholder="Enter your email" required>
+                            </div>
+                            <div class="form-control-reg">
+                            <label for="password">Password:</label>
+                            <input type="password" id="password" placeholder="Enter your password" required>
+                            </div>
+                            <div class="forgot-password basic-links">
+                            <a href="https://www.babycenter.com/reset-password?return_to=https%3A%2F%2Fcommunity.babycenter.com%2Fbirthclubs">Forgot password?</a>
+                            </div>
+                            <div class="login-btn">
+                            <button type="submit" style="font-weight: bold;">LOG IN</button>
+                            </div>
+                        </form>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+                <!-- modal popup sign up  -->
+            <div style="display: flex;justify-content: center;align-items: center;overflow-y: auto;">
+                    <div class="modal" tabindex="-1" id="modalSignup" style="border-radius: 10px;">
+                        <div class="modal-dialog" >
+                            <!-- Your login form content goes here -->
+                            <div class="modal-content">
+                            <button  class="btn-close login-close-btn" data-bs-dismiss="modal" style="margin-right: 5px;"></button>
+                            
+                            <div class="login-container modal-body ">
+                                <img src="../assets/signup.png" style="width: 100%;">
+                                <div class="header">
+                                <h4 class="heading-h4" style="margin-top: 10px;padding-bottom: 0%!important; text-align: center;font-size: 1.2rem;">
+                                    Track your baby's development
+                                </h4>
+                                <div class="body-text" style="text-align: center;font-size: 1.1rem;">Get expert guidance from the world's #1 
+                                    pregnancy and parenting resource, delivered via email, our apps, and website.
+                                </div>
+                                </div>
+                                <div class="form-control-reg">
+                                    <input type="email" id="email" placeholder="Enter your email" required>
+                                </div>
+                                <div class="form-control-reg">
+                                    <input type="password" id="password" placeholder="Enter your password" required>
+                                </div>
+                                <div class="form-control-reg" style="margin-bottom: 0%;">
+                                    <input type="date" id="dateOfBirth" placeholder="Enter Date of Birth" required>
+                                </div>
+                                <div class="text-due-date">
+                                    Don't know your due date? 
+                                    <span class="basic-links">
+                                        <a role="button" class="" tabindex="0">Calculate my due date</a>
+                                    </span>
+                                </div> 
+                                <div style="display: inline-flex;margin-bottom: 10px;margin-left: 10px;">
+                                        <span>
+                                            <input type="checkbox" id="checkBox" >
+                                        </span>
+                                        <span style="margin-left: 10px;font-weight: normal;"> Trying to conceive</span>
+                                    </div>
+                                    <div style="margin-top: 10px;margin-bottom: 15px;padding-top: 12px;border-top: 1px solid rgb(194, 194, 188);text-align: left;"></div>
+                                <div class="login-btn" style="display: flex; justify-content: center;">
+                                    <button type="submit" class="join-now-signup" style="font-weight: bold;">JOIN NOW</button>
+                                </div>
+                                </form>
+                                <p class="text-due-date" style="font-size: 1rem;font-weight: 300!important; color: #56584B;margin-bottom: 18px;">
+                                    By registering, you confirm that you are 18 years of age or older,
+                                    and you agree to our 
+                                    <a href="" class="basic-link-terms" target="_blank">Terms of Use</a> &amp; 
+                                    <a href="" class="basic-link-terms" target="_blank">Privacy Policy</a>
+                                    . We use your information to send you emails, product samples, and 
+                                    promotions, and may share your information with partners as described 
+                                    <a href="" class="basic-link-terms " target="_blank">here</a>
+                                    . We use your health information to make our site even more helpful.
+                                </p>
+                                <div style="text-align: center;">
+                                    <a href="" class="basic-link" style="font-weight: 400;text-decoration: none;">Already a member? Log in</a>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+    </div>
+    <!-- courses page -->
+    <div class="baby-names" >
+        <!-- header page -->
+        <header class="page-header">
+            <div class="header-box">
+                <div class="header-wrap">
+                    <section class="header-logo">
+                        <a href="./courses.html" style="display: inline-block;text-decoration: none;color: #000;transition: all 200ms ease;">
+                            <img class="courses-logo" src="./assets-courses/logo.png">
+                        </a>
+                    </section>
+                    <nav class="header-nav-courses">
+                        <ul style="display: inline;text-align: right;list-style: none;margin: 0%;padding: 0%;">
+                            <li class="header-item ">
+                                <a href="#modalSignup" data-bs-toggle="modal">
+                                Sign up
+                                </a>
+                            </li>
+                            <li class="header-item">
+                                <a href="#modalLogin" data-bs-toggle="modal">
+                                Log In
+                                </a>
+                            </li>                        
+                        </ul>
+                    </nav>
+                    <!-- max:768px toggle button -->
+                    <div>
+                        <!-- Toggle Button for Modal -->
+                        <button class="toggle-button courses-toggle" data-bs-toggle="modal" data-bs-target="#coursesModal">
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="coursesModal" tabindex="-1" aria-labelledby="coursesModalLabel" aria-hidden="true">
+                            <div class="modal-dialog " >
+                                <div class="modal-content" style="height: 500px;">
+                                    <div class="modal-header">
+                                        <a href="#" style="display: inline-block;text-decoration: none;color: #000;transition: all 200ms ease;">
+                                            <img class="courses-logo"style="max-width:12rem;" src="./assets-courses/logo.png">
+                                        </a>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <ul class="d-flex flex-column text-center">
+                                            <li class="header-item">
+                                                <a href="#modalSignup" data-bs-toggle="modal" class="header-item w-100 mt-2">Sign up</a>
+                                            </li>
+                                            <li class="header-item">
+                                                <a href="#modalLogin" data-bs-toggle="modal" class="header-item w-100 mt-2">Log In</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+      <!-- page courses body content -->
+      <main class="courses-container">
+            <section class="banner-courses">
+                <div class="container">
+                    <div class="row">
+                        <div class="col "style=" padding-top: 7.5rem; padding-bottom: 7.5rem;margin:0 auto;width:100%;position: relative;">
+                            <div class="header-wrap">
+                                    <article class="article-box-courses">
+                                            <header class="">
+                                                <h2 class="courses-banner-h2">Led by experts, loved by parents</h2>
+                                                <p class="courses-banner-p">Find courses to help you through your biggest parenting challenges.</p>
+                                            </header>
+                                    </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- products list -->
+            <article style="display: block;padding-top: 4rem;">
+                <ul class="products-list">
+                    <!-- 1 -->
+                    <li class="products-list-item section__body" style="min-width: 300px;">
+                        <a class="course-card course-card__public published" href="/courses/infant-cpr-first-aid-video-course">
+                            <div class="course-card__body">
+                                <p class="course-card__category">All Courses</p>
+                                <h3 class="course-card-h3">All-in-one baby safety with CPR</h3>
+                                <div class="course-card__reviews">
+                                    <span class="review__stars">
+                                    <i class="fa fa-star review__star" role="img" aria-label="star"></i>
+                                    <i class="fa fa-star review__star" role="img" aria-label="star"></i>
+                                    <i class="fa fa-star review__star" role="img" aria-label="star"></i>
+                                    <i class="fa fa-star review__star" role="img" aria-label="star"></i>
+                                    <i class="fa fa-star review__star" role="img" aria-label="star"></i>
+                                    </span>
+                                    <span class="review__stars-count">(25)</span>
+                                </div>
+                            </div>
+                            <div class="course-card__details">
+                                <span class="course-card__lesson-count"><strong>13 Lessons</strong></span>
+                                <span class="course-card__price"><strong>$45.00</strong></span>
+                            </div>
+                            <div class="course-card__img-container">
+                                <img src="./assets-courses/c1.png">
+                            </div>
+                        </a>
+                    </li>
+                    <!-- 2 -->
+                    <li class="products-list-item section__body" style="min-width: 300px;">
+                        <a class="course-card course-card__public published" href="/courses/infant-cpr-first-aid-video-course">
+                            <div class="course-card__body">
+                                <p class="course-card__category">All Courses</p>
+                                <h3 class="course-card-h3">The BabyCenter 3-stage sleep solution</h3>
+                                <div class="course-card__reviews">
+                                    <span class="review__stars">
+                                    <i class="fa fa-star review__star" role="img" aria-label="star"></i>
+                                    <i class="fa fa-star review__star" role="img" aria-label="star"></i>
+                                    <i class="fa fa-star review__star" role="img" aria-label="star"></i>
+                                    <i class="fa fa-star review__star" role="img" aria-label="star"></i>
+                                    <i class="fa fa-star review__star" role="img" aria-label="star"></i>
+                                    </span>
+                                    <span class="review__stars-count">(8)</span>
+                                </div>
+                            </div>
+                            <div class="course-card__details">
+                                <span class="course-card__lesson-count"><strong>23 Lessons</strong></span>
+                                <span class="course-card__price"><strong>$45.00</strong></span>
+                            </div>
+                            <div class="course-card__img-container">
+                                <img src="./assets-courses/c2.png">
+                            </div>
+                        </a>
+                    </li>
+                    <!-- 3 -->
+                    <li class="products-list-item section__body" style="min-width: 300px;">
+                        <a class="course-card course-card__public published" href="/courses/infant-cpr-first-aid-video-course">
+                            <div class="course-card__body">
+                                <p class="course-card__category">All Courses</p>
+                                <h3 class="course-card-h3">Meeting physical milestones through play</h3>
+                                <div class="course-card__reviews">
+                                    <span class="review__stars">
+                                    <i class="fa fa-star review__star" role="img" aria-label="star"></i>
+                                    <i class="fa fa-star review__star" role="img" aria-label="star"></i>
+                                    <i class="fa fa-star review__star" role="img" aria-label="star"></i>
+                                    <i class="fa fa-star review__star" role="img" aria-label="star"></i>
+                                    <i class="fa fa-star review__star" role="img" aria-label="star"></i>
+                                    </span>
+                                    <span class="review__stars-count">(6)</span>
+                                </div>
+                            </div>
+                            <div class="course-card__details">
+                                <span class="course-card__lesson-count"><strong>17 Lessons</strong></span>
+                                <span class="course-card__price"><strong>$45.00</strong></span>
+                            </div>
+                            <div class="course-card__img-container">
+                                <img src="./assets-courses/c3.png">
+                            </div>
+                        </a>
+                    </li>
+                    <!-- 4 -->
+                    <li class="products-list-item section__body" style="min-width: 300px;">
+                        <a class="course-card course-card__public published" href="/courses/infant-cpr-first-aid-video-course">
+                            <div class="course-card__body">
+                                <p class="course-card__category">All Courses</p>
+                                <h3 class="course-card-h3">The Ultimate Baby Prep Course</h3>
+                            
+                            </div>
+                            <div class="course-card__details">
+                                <span class="course-card__lesson-count"><strong>13 Lessons</strong></span>
+                                <span class="course-card__price"><strong>$45.00</strong></span>
+                            </div>
+                            <div class="course-card__img-container">
+                                <img src="./assets-courses/c4.png">
+                            </div>
+                        </a>
+                    </li>
+                
+                </ul> 
+            </article>
+            <!-- section video container -->
+            <section class="video-section">
+                <div class="video-container ">
+                    <article class="video-article">
+                        <div class="video-wrap">
+                            <button class="video-play-button">
+                                <i class="fa fa-play" style="color: #fff;"></i>
+                            </button>
+                            <header class="section__headings">
+                                <h2 class="" style="color: #fff;font-weight:700;">Take a look</h2>
+                            </header>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+            <!-- text containers -->
+            <section style="position: relative;">
+                    <div class="">
+                        <header class="">
+                            <h2 class="heading-h2 fs-1"style="text-align:center;">Here's what you'll get</h2>
+                        </header>
+                        <article class="mb-4">
+                            <div class="header-box">
+                                    <ul class=" row"style="display:flex;flex-wrap:wrap;padding:0;margin:0;justify-content:center;">
+                                        <li class="col-md-4"style="text-align:center;justify-content:center;color:#000; ">
+                                            <i class="fas fa-bolt mb-4"  style="color: #87bd40; font-size: 2.5rem;"></i>
+                                            <h3 class="heading-h3 text-center mb-4">Instant insight from experts</h3>
+                                            <p>An ER doctor, sleep physician, and others offer solutions tailored to your baby's stage and issues — no waiting for an appointment necessary.</p>
+                                        </li>
+                                        <li class="col-md-4"style="text-align:center;justify-content:center;color:#000;">
+                                            <i class="fas fa-unlock-alt mb-4" style="color: #87bd40; font-size: 2.5rem;"></i>
+                                            <h3 class="heading-h3 text-center mb-4">Unlimited access for 12 months</h3>
+                                            <p>Our bite-sized lessons are available whenever you are. Dive into the topics you need most, and save the rest for later.</p>
+                                        </li>
+                                        <li class="col-md-4"style="text-align:center;justify-content:center;color:#000;">
+                                            <i class="fas fa-comments mb-4" style="color: #87bd40; font-size: 2.5rem;"></i>
+                                            <h3 class="heading-h3 text-center mb-4">Ongoing Support</h3>
+                                            <p>Private community groups let you see what other parents are asking and get updates from BabyCenter editors.</p>
+                                        </li>
+                                    
+                                    
+                                    
+                                    </ul>
+                                </div>     
+                        </article>
+                    </div>
+            </section>
+            <!-- carousel experts -->
+            <section class="pt-4">
+                <div class="header-box">
+                    <header class="">
+                        <h2 class="heading-h2 mb-0 fs-1"style="text-align:center;">Meet Your Experts  </h2>
+                        <p class="fs-2" style="color: #000;text-align: center; ">They've seen it all and are eager to help</p>
+                    </header>
+                    <article class="mb-4">
+                        <div class="">
+                            <div class="container mt-5">
+                                <div id="testimonialsCarousel1" class="carousel slide" >
+                                    <div class="carousel-inner">
+                                            <!-- 1 -->
+                                            <div class="carousel-item active">
+                                                <img src="https://import.cdn.thinkific.com/550174%2Fcustom_site_themes%2Fid%2FVJSfdV4XTB1sdoKe5MgQ_dr-afolabi-brown-headshot.png" class="d-block mx-auto rounded-circle" alt="Expert 1" width="100">
+                                                <div class="carousel-items-body text-center mt-3"style="padding-left:90px;padding-right:90px;">
+                                                        <h3 class="heading-h3 text-center" style="font-size: 1.25em;">Olufunke Afolabi-Brown, M.D.</h3>
+                                                        <p class=""style="font-size:0.8rem; font-weight:bold;">The BabyCenter 3-stage sleep solution</p>
+                                                        <div>
+                                                        Dr. Brown is a board certified pediatric pulmonary and sleep medicine physician. She is the founder of Restful Sleep MD, where she helps families prioritize and improve their sleep. She lives in Philadelphia with her husband and two children.
+                                                        </div>
+                                                </div>
+                                            </div>
+                                            <!-- 2 -->
+                                            <div class="carousel-item ">
+                                                    <img src="./assets-courses/2.png" class="d-block mx-auto rounded-circle" alt="Expert 1" width="100">
+                                                    <div class="carousel-items-body text-center mt-3 "style="padding-left:90px;padding-right:90px;">
+                                                        <h3 class="heading-h3 text-center" style="font-size: 1.25em;">Michelle Tiflinsky, M.S., OTR/L</h3>
+                                                        <p class=""style="font-size:0.8rem; font-weight:bold;">Meeting physical milestones through play</p>
+                                                        <div>
+                                                            Michelle has been a pediatric occupational therapist for more than a decade and is the founder of Purposeful Play NYC in New York City. Her two young daughters taught her how challenging it can be to follow occupational therapy best practices at home and to prevent developmental delays, which is why she's so passionate about educating parents on purposeful movement and play.   
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                            <!-- 3-->
+                                            <div class="carousel-item ">
+                                                    <img src="./assets-courses/3.png" class="d-block mx-auto rounded-circle" alt="Expert 1" width="100">
+                                                    <div class="carousel-items-body text-center mt-3 "style="padding-left:90px;padding-right:90px;">
+                                                        <h3 class="heading-h3 text-center"style="font-size: 1.25em;">C. Anthoney Lim, M.D., M.S.</h3>
+                                                        <p class=" "style="font-size:0.8rem; font-weight:bold;">Infant CPR and first aid</p>
+                                                        <div>
+                                                            Dr. Lim is the director of pediatric emergency medicine for the Mount Sinai Health System. In addition to seeing patients, he works to ensure consistent and quality emergency care for children across Mount Sinai's eight hospitals. He pursued a career in pediatric medicine to help parents, not just children.
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                    </div>
+                                    <button class="carousel-control-prev " type="button" data-bs-target="#testimonialsCarousel1" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon rounded-circle" style="background-color:#629222;"aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next " type="button" data-bs-target="#testimonialsCarousel1" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon rounded-circle "style="background-color:#629222;" aria-hidden="true"></span>
+                                        <span class="visually-hidden" style="background-color:#629222;">Next</span>
+                                    </button>
+                                </div>
+                            </div>                        
+                        </div>     
+                    </article>
+                </div>
+            </section>
+              <!-- carousel parents reviews-->
+              <section class="pt-4">
+                <div class="header-box">
+                    <header class="">
+                        <h2 class="heading-h2 mb-0 fs-1"style="text-align:center;">Here's what parents are saying  </h2>
+                    </header>
+                    <article class="mb-4">
+                        <div class="">
+                            <div class="container mt-5">
+                                <div id="parentsReviewsCarousel2" class="carousel slide" >
+                                    <div class="carousel-inner">
+                                            <!-- 1 -->
+                                            <div class="carousel-item active">
+                                                <img src="./assets-courses/4.png" class="d-block mx-auto rounded-circle" alt="Expert 1" width="100">
+                                                <div class="carousel-items-body text-center mt-3"style="padding-left:90px;padding-right:90px;">
+                                                        <p class=""style="font-size:0.8rem; font-weight:bold;">Ashley, mom of 3</p>
+                                                        <div>
+                                                            Even as a mom of three, it's great to hear the most up-to-date information and try new techniques or even old ones that I have long forgotten.
+                                                        </div>
+                                                </div>
+                                            </div>
+                                            <!-- 2 -->
+                                            <div class="carousel-item ">
+                                                    <img src="./assets-courses/5.png" class="d-block mx-auto rounded-circle" alt="Expert 1" width="100">
+                                                    <div class="carousel-items-body text-center mt-3 "style="padding-left:90px;padding-right:90px;">
+                                                        <p class=""style="font-size:0.8rem; font-weight:bold;">Brent, dad of 4</p>
+                                                        <div>
+                                                            New parents sometimes need a bit of comfort to know they can handle the journey — this is a nice balance of encouragement and information.
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                            <!-- 3-->
+                                            <div class="carousel-item ">
+                                                    <img src="./assets-courses/6.png" class="d-block mx-auto rounded-circle" alt="Expert 1" width="100">
+                                                    <div class="carousel-items-body text-center mt-3 "style="padding-left:90px;padding-right:90px;">
+                                                        <p class=" "style="font-size:0.8rem; font-weight:bold;">Amanda, mom of 2</p>
+                                                        <div>
+                                                            The step-by-step guidance provided was so helpful. I highly recommend it to all caregivers and parents.
+                                                        </div>
+                                                    </div>
+                                            </div>
+                                    </div>
+                                    <button class="carousel-control-prev " type="button" data-bs-target="#parentsReviewsCarousel2" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon rounded-circle" style="background-color:#629222;"aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next " type="button" data-bs-target="#parentsReviewsCarousel2" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon rounded-circle "style="background-color:#629222;" aria-hidden="true"></span>
+                                        <span class="visually-hidden" style="background-color:#629222;">Next</span>
+                                    </button>
+                                </div>
+                            </div>                        
+                        </div>     
+                    </article>
+                </div>
+            </section>
+            <!--  -->
+            <section>
+                <section class="bg-banner" >
+                    <div class="">
+                      <div class="header-box">
+                        <article class="article-box-courses">
+                          <header class="section-headings">
+                            <h2 class="section-heading-h2 text-left p-0">BabyCenter is your parenting partner</h2>
+                            <p class=""style="color: #fff;text-align:left;font-size:1em;">BabyCenter is committed to providing the most helpful and trustworthy pregnancy and parenting information in the world. Our content — and now our courses — are doctor approved and evidence based, and our community is moderated, lively, and welcoming. With thousands of award-winning articles and community groups, you can track your pregnancy and baby's growth, get answers to your toughest questions, and connect with moms, dads, and expectant parents just like you.</p>
+                          </header>
+                        </article>
+                      </div>
+                    </div>
+                  </section> 
+            </section>
+      </main>
+      <footer class="footer-courses">
+            <div class="footer-box">
+                    <article class=" footer-social">
+                            <ul class="footer-nav-site">
+                                <li class="footer-nav-item">
+                                     <a href="" target="_self">About BabyCenter </a>
+                                </li>
+                                <li class="footer-nav-item">
+                                      <a href="" target="_blank">Contact us</a>
+                                </li>
+                                <li class="footer-nav-item">
+                                    <a href="" target="_self">Terms of Use</a>
+                                </li>
+                                <li class="footer-nav-item">
+                                     <a href="" target="_self">Privacy Policy</a>
+                                </li>
+                                <li class="footer-nav-item">
+                                    <a href="" target="_blank">Courses FAQ</a>
+                                </li>
+                            </ul>            
+                            <ul class="footer-nav-social">
+                                <li class="footer-nav-item">
+                                    <a href="https://www.facebook.com/BabyCenter/" target="_blank">                             
+                                        <span class="sr-only">
+                                        BabyCenter Facebook Group
+                                        (Open in a new window)
+                                        </span>                            
+                                        <i class="fab fa-facebook" aria-hidden="true"></i>
+                                    </a>
+                                </li>                                               
+                                <li class="footer-nav-item">
+                                    <a href="https://www.instagram.com/babycenter/?hl=en" target="_blank">                              
+                                        <span class="sr-only">
+                                        BabyCenter Instagram
+                                        (Open in a new window)
+                                        </span>                              
+                                        <i class="fab fa-instagram" aria-hidden="true"></i>
+                                    </a>
+                                </li>    
+                                <li class="footer-nav-item">
+                                    <a href="https://www.pinterest.com/babycenter/" target="_blank">           
+                                        <span class="sr-only">
+                                        BabyCenter Pinterest
+                                        (Open in a new window)
+                                        </span>                            
+                                        <i class="fab fa-pinterest" aria-hidden="true"></i>
+                                    </a>
+                                </li>                       
+                            </ul>                   
+                            <span class="section-divide"></span>                  
+                            <div class="footer-copyright">
+                                © 1997–2023 BabyCenter, LLC, a Ziff Davis company.
+                                 All rights reserved. BabyCenter is designed for educational 
+                                 purposes only.  Consult with a medical professional if you have health concerns. Use of this site is subject to our Terms of Use and Privacy Policy.                       
+                            </div>
+                        
+                    </article>
+            </div>
+      </footer>
+        
+    </div>
+  
+</body>
+</html> 

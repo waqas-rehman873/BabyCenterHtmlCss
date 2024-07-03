@@ -1,0 +1,375 @@
+.page-header{
+    position: relative;
+    background-color: #fff;
+    border-bottom: 0;
+}
+
+.header-box {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding: 1.6rem 1rem;
+}
+.header-wrap{
+    position: relative;
+display: flex;
+flex-wrap: nowrap;
+align-items: center;
+justify-content: space-between;
+}
+.header-logo{
+    padding-right: 1rem;
+  line-height: 1;
+}
+.header-nav-courses{
+    display: block;
+    width: 100%;
+    text-align: right;
+}
+.header-item a{
+    color: #017187;
+    font-weight: 600;
+    text-decoration: none;
+}
+.header-item a:last-child{
+    margin-left: 10px;
+}
+.header-item{
+    display: inline-block;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.header-heading{
+    position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  clip-path: inset(50%);
+}
+.courses-container{
+display: block;
+}
+.article-box-courses{
+    position: relative;
+  width: 100%;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+.banner-courses{
+    background: linear-gradient(rgba(255,255,255,0.07), rgba(255,255,255,0.07)),url(https://import.cdn.thinkific.com/550174%2Fcustom_site_themes%2Fid%2F5yakJeokReznikavzY7C_landing-hero-animated-v2.gif?width=1920);
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+}
+.courses-banner-h2{
+    color: #fff;
+    font-weight: bold;
+    font-family: "Montserrat",sans-serif;
+    font-size: 2.4rem;
+}
+.courses-banner-p{
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Montserrat",sans-serif;
+}
+/* product lists */
+.products-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+.course-card-h3{
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.25;
+    color: #000;
+    font-family: "Montserrat",sans-serif;
+}
+  .products-list-item {
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 2rem;
+  }
+  .course-card {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .course-card__body {
+    padding: 20px;
+  }
+  .course-card__category {
+    margin-bottom: 10px;
+  }
+  .course-card__reviews {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .review__star {
+    color: #ffc107;
+  }
+  .review__stars-count {
+    margin-left: 5px;
+  }
+  .course-card__details {
+    padding: 10px;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .course-card__lesson-count,
+  .course-card__price {
+    font-weight: bold;
+  }
+  .course-card__img-container img{
+   width: 100%;}
+  .course-card__img-container {
+    overflow: hidden;
+  }
+  .course-card__img {
+    width: 100%;
+    height: auto;
+  }.products-list-item a{
+    background-color: #ebf7fa;
+    transition: transform 200ms ease,background-color 200ms ease,box-shadow 200ms ease;
+  height: 100%;
+  }
+  /* video-section */
+  .video-section{
+    background: linear-gradient(rgba(0,0,0,0.14), rgba(0,0,0,0.14)),url("https://import.cdn.thinkific.com/550174%2Fcustom_site_themes%2Fid%2F7tPxEjCATgmLuyg0l4hR_landing-take-a-look.jpg?width=1920");
+    background-position-x: 0%, 0%;
+    background-position-y: 0%, 0%;
+    background-repeat: repeat, repeat;
+    background-size: auto, auto;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 60vh;
+  }
+  .video-container{
+    padding-top: 20vh;
+  padding-bottom: 0vh;
+
+
+}
+.video-container {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  }
+  .video-article{
+    position: relative;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  border-radius: 5px;
+  z-index: 1;
+  text-align: left;
+  }
+  .video-article::after{
+    position: absolute;;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  content: "";
+  z-index: -1;
+  pointer-events: none;
+  }
+  .video-wrap{
+    text-align: center;
+  }
+  .video-play-button{
+    filter: blur(0);
+    display: block;
+    width: 2em;
+    height: 2em;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 50%;
+    background-color: #87bd40;
+    font-size: 1.25em;
+    letter-spacing: -3px;
+    line-height: 2em;
+    text-align: center;
+  }
+  .bg-banner{
+    background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,0)),url("https://import.cdn.thinkific.com/550174%2Fcustom_site_themes%2Fid%2Fpd2qctzTAexQPQyRiB1G_ParentingPartner_background_dark.png?width=1920");
+    background-position-x: 0%, 0%;
+    background-position-y: 0%, 0%;
+    background-repeat: repeat, repeat;
+    background-size: auto, auto;
+  position: relative;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  }
+  .section-heading-h2{
+    font-family: "Montserrat",'sans-serif';
+    font-weight: 700;
+     color: #ffffff;
+  }
+  .footer-courses{
+    margin-top: auto;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    background-color: #fff;
+    color: #017187;
+  }
+  .footer-box{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .footer-nav-site{
+    position: relative;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .footer-social{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-nav-social{
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    flex: 0 0 100%;
+    max-width: 100%;
+  }.footer-nav-site li{
+    margin-right: 2rem;
+    text-align: left;
+  }
+  .footer-nav-item{
+    margin-right: 0.8rem;
+    display: inline-block;
+
+  }.footer-nav-item a{
+    display: inline-block;
+    color: #017187;
+    font-size: 0.875rem;
+    
+    text-decoration: none;
+    font-size: 1.2rem;
+  }.section-divide{
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 1rem;
+    background-color: #000;
+    opacity: 0.2;
+  }
+@media (min-width: 768px){
+.header-box {
+    max-width: 768px;
+}.video-container{
+    max-width:768px;
+}.courses-toggle{
+    display: none;
+}.article-box-courses{
+    position: relative;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    flex: 0 0 66.66667%;
+    max-width: 66.66667%;
+}
+}
+@media (min-width: 1024px){
+    .header-box {
+    max-width: 1024px;
+    }
+    .article-box-courses{
+    position: relative;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    flex: 0 0 50%;
+    max-width: 45%;}
+}
+@media (min-width: 1200px){
+    .header-box {
+    max-width: 1200px;
+    }
+}
+@media (max-width: 768px){
+    .header-nav-courses {
+        display: none;
+    }.courses-logo{
+        max-width: 12rem;
+    }
+    }
+@media (max-width:520px){
+    .products-list-item{
+        width:300px ;
+    }.carousel-items-body{
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+    }
+}
+@media (min-width:520px) {
+    .footer-nav-site{
+        position: relative;
+    width: 100%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    flex: 0 0 50%;
+    max-width: 50%;
+    text-align: left;
+    }.footer-nav-social{
+        text-align: right;
+        position: relative;
+        width: 100%;
+        padding-right: 1rem;
+        padding-left: 1rem;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    
+}
+/*  */
+.header-item a:hover{
+    color: #000;
+}
+.products-list-item a:hover{
+    transition: transform 200ms ease,background-color 200ms ease,box-shadow 200ms ease;
+    transform: translateY(-1rem);
+  outline: 0;
+  background-color: #b1e2eb;
+  color: #000;
+  box-shadow: 0 8px 22px rgba(0,0,0,0.15);
+}

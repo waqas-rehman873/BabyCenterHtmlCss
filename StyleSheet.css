@@ -1,0 +1,1915 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  color: #000;
+  font-family: "Montserrat", "Arial", sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: normal;
+  letter-spacing: normal;
+}
+body.scrolled .logo-bar {
+  border-bottom: 1px solid #c2c2bc;
+}
+h2,
+h3 {
+  font-family: 'Domine','Georgia',serif;
+  padding: 0%;
+  font-weight: 700;
+  color: #000;
+}
+/* side-bar-style */
+ul{
+  list-style-type: none;
+}
+li{
+  list-style-type: none;
+}
+.main-div{
+  padding-left: 10px;
+padding-right: 10px;
+}
+/* ?? login */
+.login-container {
+  background-color: rgb(242, 246, 246);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login-container p{
+  margin-top:10px
+}
+.login-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.basic-links a {
+  color: #016174;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.login-dialog-title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+.login-close-btn{
+  position: absolute;
+  padding: 10px;
+  top: 15px;
+  right: 12px;
+  cursor: pointer;
+  padding: 0;
+  z-index: 1;
+  width: 20px;
+  height: 20px;
+  background: url(https://assets.babycenter.com/ims/2020/04/ic_close.svg) no-repeat !important;
+}
+.form-control-reg {
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+.basic-link-terms{
+  color: #000;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+  margin-top: 5px;
+}
+.forgot-password{
+  margin-bottom: 10px;
+}
+.forgot-password a {
+  font-size: 14px;
+}
+.login-btn button {
+  background-color: #016174;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.login-dialog-title{
+  margin-bottom: 12px;
+  font-weight: bold;
+  padding: 0;
+}
+.login-btn button:hover {
+  background-color: #024755;
+}
+.side-bar-element{
+  padding: 0% !important;
+}
+.drop{
+  overflow: hidden;
+  text-align: left !important;
+  height: auto;
+  margin-top: 0.5rem;
+}
+.dropdown-item:hover {
+  background-color: #a0d4dc !important;
+}
+.dropdown-item{
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 0.5rem 1.5rem !important;
+  color: #000 !important;
+}
+.side-bar-btn{
+  font-size: 1rem;
+  font-weight: bold;
+  color: #000 !important;
+  font-family: "Montserrat", "Arial", sans-serif;
+
+}
+.logo-bar {
+  width: 100%;
+  height: 60px;
+  top: 0%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  z-index: 994;
+  position: fixed;
+  max-height: none;
+  padding-right: 0.5rem;
+ 
+
+}
+.nav-links-bar {
+  width: 100%;
+  padding-top: 60px;
+  background-color: #fff;  
+  border-bottom: 1px solid #C2C2BC;
+}
+.toggle-button,
+.bell-icon {
+  background-color: transparent;
+  color: #016174;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+  margin: 5px;
+  margin-left: 0%;
+}
+.toggle-button {
+  width: 28px;
+  height: 36px;
+  display: inline-block;
+  cursor: pointer;
+  background-position: center;
+  background-image: url(https://assets.babycenter.com/ims/2023/05/nav_menu_light.svg);
+}
+.basic-link {
+  display: inline-block;
+  text-align: center;
+  font-weight: bold;
+  color: #016174;
+  padding-right: 12px;
+}
+.sign-up {
+  text-decoration: none;
+  color: #016174;
+}
+.nav-links-bar ul {
+  position: relative;
+  list-style-type: none;
+  justify-content: space-between;
+  text-transform: uppercase;
+  width: 100%;
+ 
+  display: flex;
+  background-color: #fff;
+  border-bottom: 0px solid #c2c2bc;
+  overflow: hidden;
+  padding-left: 0%!important;
+}
+.nav-links-bar li {
+  display: inline;
+}
+.nav-links-bar li a {
+  color: #000;
+  text-align: center;
+  margin: 14px 14px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600 !important;
+}
+.banner-img {
+  position: static;
+  background-color: #F7F7F6;
+  display: flex;
+  min-height: 90px;
+  margin:  auto;
+  justify-content: center;
+  border-bottom: 1px solid #C2C2BC;
+}
+.div-box {
+  box-sizing: inherit;
+  /* min-width: 728px; */
+  /* min-height: 80px;
+  width: 100%; */
+  /* flex-basis: 100%; */
+}
+.flex-container-section {
+  text-align: center;
+  flex-direction: row;
+  padding: 12px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #d1ece4;
+  flex-direction: row;
+  display: flex;
+  margin: 4px 0;
+  gap: 5px;
+  justify-content: space-evenly;
+}
+.items-inner-box {
+  display: flex;
+  font-size: 0.75rem;
+  color: #424438;
+  width: 100%;
+  gap: 15px;
+  box-sizing: inherit;
+}
+.box2-img {
+  background-color: rgba(179, 225, 234, 0.12);
+  padding: 9px 4px;
+  display: flex;
+  justify-content: center;
+  box-sizing: inherit;
+}
+.inner-div-box2-text {
+  display: inline-block;
+  box-sizing: inherit;
+}
+.inner-div-box2 {
+  display: flex;
+  background-color: rgb(240, 249, 246);
+  align-items: center;
+  flex-direction: row;
+  /* gap: 20px; */
+  flex: 1;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+  text-align: left;
+  box-sizing: inherit;
+}
+.box2-img-div {
+  padding: 9px 4px;
+  border-style: none;
+}
+.inner-div-box2-des {
+  box-sizing: inherit;
+}
+/* Banner slide images css  */
+.slide-img-div {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 18px;
+  margin-top: 16px;
+  border-radius: 15px;
+  background-color: #ffffff;
+}
+.banner-img-caption {
+  bottom: 0px;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  -moz-box-pack: center;
+  justify-content: center;
+  max-width: 700px;
+  margin: 0px auto;
+  text-align: center;
+  flex-wrap: wrap;
+  column-gap: 2px;
+  padding: 0px 10%;
+}
+.slideLabel {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  line-height: 13.41px;
+  margin-bottom: 27px;
+}
+.highlight {
+  box-sizing: inherit;
+  color: rgb(255, 255, 255);
+}
+/* image slider */
+.carousel-caption h2 {
+  font-size: 2.2rem;
+    color: #000;
+    font-weight: 700;
+  background-color: white; 
+  padding-top: 10px; 
+  padding-bottom: 10px;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+  font-family: "Domine", "Georgia", serif;
+}
+.carousel-caption .btn-sign-up {
+  background-color: #0f8299;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  margin-top: 20px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+/* Set the carousel container width */
+.carousel {
+  width: 80%;
+  margin: auto;
+}
+/* Set white space around the arrows */
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+}
+/* Set arrow color */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #0f8299;
+}
+.carousel-caption {
+  position: absolute;
+  top: 50%;
+  gap: 0 !important;
+  left: 50% !important;
+  right: 0% !important;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* timeline section */
+.timeline {
+  display: flex;
+  justify-content: center;
+  box-sizing: inherit;
+}
+.wrapper {
+  max-width: 1300px;
+  width: 100%;
+  overflow: hidden;
+  margin: 8px 0 14px;
+}
+.title {
+  font-weight: 700;
+  margin-bottom: 22px;
+  font-size: 22px;
+  text-align: center;
+  font-family: "Domine", "Georgia", serif;
+}
+.scroll-control {
+  display: flex;
+  /* flex-wrap: wrap;
+  justify-content: center; */
+  /* scrollbar-width: none; */
+ overflow: auto;
+}
+.card-box {
+  display: flex;
+  margin-bottom: 10px;
+  background-color: #c9e5db;
+  border-radius: 5px;
+  margin-right: 15px;
+  margin-left: 0%;
+  padding: 2px 0 4px;
+  text-decoration: none;
+  color: #002f36;
+  box-sizing: inherit;
+}
+.left-box {
+  width: 50px;
+  height: 66px;
+  text-align: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+.right-box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 66px;
+  height: 60px;
+}
+.number {
+  font-weight: bold;
+  font-size: 24px;
+  box-sizing: inherit;
+}
+/* Image-divider */
+.img-divider {
+  border-bottom: 1px solid #3cb6ce;
+  height: 25px;
+  text-align: center;
+  margin: 12px 0 50px;
+}
+.divider-leaf {
+  position: relative;
+  top: 10px;
+  height: 26px;
+  width: 16px;
+  display: inline-block;
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-position: center;
+  background-image: url("https://assets.babycenter.com/ims/2020/05/ic_leafdivider.svg");
+}
+.img-divider .span {
+  padding: 0 15px;
+  background-color: #fff;
+  margin: auto;
+}
+/* promo-spacer */
+.promo-spacer {
+  margin-bottom: 40px;
+}
+.promo-box {
+  display: flex;
+  background-color: #f7f7f6;
+  flex-direction: column;
+  border-radius: 10px;
+  max-width: 330px;
+  justify-content: space-around !important;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+}
+.promo-img-cell {
+  text-align: center;
+}
+.promo-img-cell-image {
+  transition: opacity 0.3s;
+}
+.promo-box-content-cell {
+  padding: 17px;
+  background-color: #f7f7f6;
+
+  overflow: hidden;
+}
+.content-cell-detail {
+  font-weight: 500;
+  font-size: 22px;  
+  line-height: 2.625rem;
+  margin: 0 0 15px 0;
+  font-family: "Domine", "Georgia", serif;
+ margin-bottom: 4px;
+}
+.content-cell-button {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 28px;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  box-sizing: border-box;
+  border: 0;
+
+   padding:6px 16px ;
+  height: auto;
+  margin: 0%;
+  cursor: pointer;
+  text-transform: uppercase;
+  min-width: 64px;
+  border-radius: 4px;
+  color: black;
+  background-color: #ff8b7c;
+  font-family: 'Montserrat','Arial',sans-serif;
+  vertical-align: middle;
+}
+.content-cell-subtitle {
+  font-size: 0.875rem;
+  line-height: 1.375rem;
+  color: #016174;
+  margin-bottom: 18px;
+
+}
+/* tools css */
+.mobile-margin{
+  margin-bottom: 40px;
+  box-sizing: inherit;
+}
+.mobile-margin h2{
+  font-family: 'Domine','Georgia',serif;
+  font-weight: 500;
+  line-height: 2rem;
+}
+.tools-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: calc(100% + 16px);
+  margin-left: -16px;
+  justify-content: center;
+}
+.tool-1 {
+  width: 250px;
+  padding-top: 16px;
+  padding-left: 16px ;
+  box-sizing: border-box ;
+  margin: 0 ;
+  flex-grow: 0;
+  max-width: 33.333333%;
+}
+.next-link{
+  display: block;
+  box-sizing: inherit;
+}
+.tool-fig { 
+  max-width: 140px;
+  margin: auto;
+  text-align: center;
+  box-sizing: inherit;
+}
+.tool-fig-detail {
+  box-sizing: border-box;
+  display: block;
+  overflow: hidden;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+.tool-1,
+a,
+figure {
+  margin: 0;
+  text-align: center;
+  margin-block-start: 0;
+  margin-block-end:0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  box-sizing: inherit;
+  color: #000;
+}
+.tool-fig-detail2 {
+  box-sizing: border-box;
+  display: block;
+  width: initial;
+  height: initial;
+  background: none;
+  opacity: 1;
+  border: 0px;
+  margin: 0px;
+  padding: 100% 0px 0px;
+}
+.tool-img {
+  position: absolute;
+  inset: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  border: medium;
+  margin: auto;
+  display: block;
+  width: 0px;
+  height: 0px;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.fig-caption {
+  text-align: center;
+  line-height: 162.5%;
+  display: inline-block;
+  font-size: 1rem;
+  color: #000;
+}
+.accordion-button h4{
+  font-size: 20px;
+  font-weight: 700;
+  color: #000 !important;}
+/* share ads section */
+.share-ad-bg {
+  display: flex;
+  margin: 40px auto;
+  justify-content: center;
+}
+.ad-container {
+  background-color: grey;
+  height: 250px;
+  width: 450px;
+  min-height: 200px;
+  min-width: 200px;
+}
+.accordion-button:not(.collapsed) {
+background-color: transparent!important ;
+}
+/* collapse menu container */
+.section-container {
+  margin-bottom: 24px;
+}
+.collapse-menu-box {
+  display: block;
+  line-height: normal;
+  /* background-color: #777b7c; */
+}
+.icon-img {
+  width: 25px;
+  margin-right: 10px;
+}
+.arrow {
+  display: inline-block;
+  border-width: 0 2px 2px 0;
+  padding: 3px;
+  transform: rotate(45deg);
+  margin-left: auto;
+}
+.expand-box-1 {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  transition: height;
+}
+.expand-box-div {
+  display: block;
+}
+.expand-box-inner {
+  display: flex;
+  min-height: 0;
+  overflow: auto;
+  margin-bottom: 23px;
+  margin-left: 18px;
+}
+.box-inner-links {
+  position: relative;
+  display: inline-block;
+  flex: 1 1 auto;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-bottom: 0%;
+  white-space: nowrap;
+}
+.links-tab-list {
+  display: flex;
+  gap: 10px;
+}
+.tab-list-btn {
+  margin-bottom: 1px;
+  border-color: #287462;
+  color: #fff;
+  background-color: #287462;
+  font-size: 0.85rem;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: left;
+  justify-content: center;
+  border: 1px solid#017187;
+  border-radius: 20px;
+  min-height: 30px;
+  height: 30px;
+  opacity: 1;
+  position: relative;
+  font-family: "Montserrat", "Arial", sans-serif;
+  text-transform: none;
+  letter-spacing: normal;
+  padding: 0 10px;
+  width: auto;
+  min-width: auto;
+  display: inline-flex;
+  align-items: center;
+  flex-direction: column;
+}
+.expand-box-inner2 {
+  display: flex;
+}
+.inner2-outer-wrapper {
+  max-width: 2500px;
+  overflow: hidden;
+  height: 360px;
+}
+.scroll-box {
+  display: flex;
+  height: 350px;
+  align-items: flex-start;
+  overflow: auto;
+}
+.link-card {
+  display: block;
+  position: relative;
+  width: 254px;
+  padding-left: 3px;
+  margin-right: 18px;
+  margin-left: 15px;
+  text-decoration: none;
+}
+.inner-link-card {
+  position: relative;
+  width: 248px;
+  height: 330px;
+  border-radius: 10px;
+  background-color: #fff;
+  text-align: center;
+  border: 1px solid transparent;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.inner-card-img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.inner-des {
+  text-align: left;
+  font-weight: 700;
+  line-height: 26px;
+  margin: 15px 15px 0;
+  height: 54px;
+  color: #000;
+  white-space: initial;
+  text-overflow: ellipsis;
+}
+.attribute-subtitle {
+  position: absolute;
+  bottom: 10px;
+  margin: 0 15px;
+  text-align: left;
+  font-size: 12px;
+  color: #56584b;
+  line-height: 20px;
+  font-family: "Montserrat", "Arial", sans-serif;
+}
+/* see-more-wrapper */
+.see-more-wrapper {
+  margin: 0 0 24px;
+  text-align: center;
+}
+.see-more-wrapper-btn {
+  display: inline-block;
+  color: #016174;
+  box-sizing: border-box;
+  padding: 9px 45px;
+  border: 1px solid #016174;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 1rem;
+  text-decoration: none;
+}
+/* Medical Advisory Board Section  */
+.medical-data-box {
+  margin-bottom: 25px;
+  text-align: center;
+}
+.mobile-margin-box {
+  display: inline-block;
+  max-width: 750px;
+  text-align: center;
+  margin-top: 10px;
+}
+.mobile-margin-body-text {
+  max-width: 550px;
+  display: inline-block;
+  text-align: center;
+  font-weight: 550;
+  font-size: 1rem;
+  margin-bottom: 25px;
+  letter-spacing: -0.1px;
+  line-height: 162.5%;
+  box-sizing: inherit;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.mobile-desktop-box {
+  display: flex;
+  box-sizing: inherit;
+}
+.mobile-margin-box h2{
+
+  font-size: 1.875rem;
+  font-weight: normal;
+  line-height: 2.625rem;
+  font-family: 'Domine','Georgia',serif;
+  color: #000;
+}
+.medical-person {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+  box-sizing: inherit;
+}
+.medical-left-a {
+  display: flex;
+  /* box-sizing: inherit; */
+  align-items: center;
+  text-decoration: none;
+}
+.medical-person-pic-circle {
+  width: 66px;
+  height: 66px;
+  margin-right: 10px;
+  position: relative;
+  text-align: left;
+}
+.pic-circle {
+  box-sizing: border-box;
+  display: inline-block;
+  overflow: hidden;
+  width: 66px;
+  height: 66px;
+  background: none;
+  opacity: 1;
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+.img-data {
+  position: absolute;
+  inset: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  border: medium;
+  margin: auto;
+  display: block;
+  width: 0px;
+  height: 0px;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+}
+.person-name {
+  color: #016174;
+  font-weight: 700;
+  margin: 2px;
+  box-sizing: inherit;
+}
+.person-job {
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.1px;
+  color: black;
+  /* box-sizing: inherit; */
+}
+.person-all {
+  text-align: left;
+}
+.medical-list-space-btw {
+  width: 50px;
+  margin-bottom: 25px;
+}
+/* section baby center courses */
+.center-outer {
+  position: relative;
+  margin: 80px;
+  background-color: #ebf7fa;
+  text-align: center;
+  flex-shrink: inherit;
+}
+.leading-icon-div {
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  width: 78px;
+  height: 78px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.leading-icon {
+  margin-top: 8px;
+  margin-left: 16px;
+}
+.icon-main-wrapper {
+  padding-top: 48px;
+  box-sizing: inherit;
+}
+.title-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title-items h2 {
+  font-weight: normal;
+  padding: 0%;
+  font-family: 'Domine','Georgia',serif;
+}
+.premium {
+  color: #ac6313;
+  font-size: 11px;
+  font-weight: 700;
+  background-color: #f5e8b7;
+  padding: 4px 10px;
+  border-radius: 10.5px;
+  text-transform: uppercase;
+  margin-left: 6px;
+}
+.mini-text {
+  margin-bottom: 25px;
+  line-height: 162.5%;
+  font-weight: 550;
+  letter-spacing: -0.1px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.box-courses {
+  display: flex;
+  justify-content: center;
+  box-sizing: inherit;
+}
+.outer-wrap-courses {
+  max-width: 1300px;
+  height: 360px;
+  overflow: hidden;
+}
+.scroll-container-courses {
+  display: flex;
+  padding-top: 3px;
+  align-items: flex-start;
+  height: 353px;
+  overflow: auto;
+}
+.card-courses {
+  display: block;
+  position: relative;
+  width: 248px;
+  margin-left: 3px;
+  text-decoration: none;
+  margin-right: 15px;
+}
+.card-courses-inner {
+  position: relative;
+  width: 248px;
+  height: 330px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  box-sizing: inherit;
+}
+.courses-inner-img1 {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border: none;
+  height: 186px;
+  width: 248px;
+}
+.courses-inner-img2 {
+  position: absolute;
+  top: 186px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+}
+.courses-inner-des {
+  line-height: 26px;
+  margin: 30px 15px 0;
+  box-sizing: inherit;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #000;
+  letter-spacing: normal;
+}
+.inner-bottom {
+  position: absolute;
+  bottom: 0px;
+  background-color: #ff8b7c;
+  width: 100%;
+  padding: 10px 0;
+  font-weight: 700;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.inner-bottom-text {
+  display: flex;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
+.see-more-courses {
+  display: inline-block;
+  color: #016174;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 25px;
+  border: 1px solid #016174;
+  text-transform: none;
+  padding: 9px 24px;
+  text-decoration: none;
+}
+/* Birth Club Calender */
+.birth-club-section {
+  padding: 16px 15px 10px;
+  overflow: hidden;
+}
+.birth-club-section h2 {
+  text-align: center;
+  margin: 0 0 15px;
+  font-weight: normal;
+  font-family: "Domine", "Georgia", serif;
+  padding: 0%;
+  box-sizing: inherit;
+}
+.birth-club-section h3 {
+  margin: 0 0 15px;
+  font-size: 1rem;
+  padding: 0;
+  font-family: "Domine", "Georgia", serif;
+  font-weight: 550;
+  text-align: center;
+}
+.birth-club-scroll-box {
+  margin-bottom: 10px;
+  overflow: auto;
+  box-sizing: inherit;
+}
+.scroll-control-calender {
+  display: flex;
+  gap: 10px;
+  margin: 14px 0 22px;
+  justify-content: center;
+}
+.scroll-links-calender {
+  display: block;
+  text-decoration: none;
+}
+.scroll-slide-birth-club {
+  border-radius: 15px;
+  position: relative;
+  width: 114px;
+  height: 170px;
+  padding: 0%;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0px 2px 4px 0px #00000028;
+  border: 1px solid transparent;
+}
+.scroll-slide-img {
+  position: relative;
+  box-sizing: inherit;
+}
+.scroll-slide-des {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 56px;
+  padding: 4px 0 5px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.1px;
+  text-align: center;
+  color: #016174;
+  background-color: #fff;
+}
+.birth-club-img {
+  margin: 0 auto;
+  object-fit: cover;
+  width: 100%;
+  height: 114px;
+  border: none;
+  text-align: center;
+  box-sizing: inherit;
+}
+.scroll-slide-des span {
+  display: block;
+  width: 100%;
+  height: 100%;
+  box-sizing: inherit;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.main-div h2 {
+  text-align: center;
+}
+/* Section baby names */
+.section-baby-names-cont {
+  box-sizing: inherit;
+}
+.alphabet-names {
+  max-width: 828px;
+  margin: 28px auto 0;
+  display: flex;
+  justify-content: flex-starts;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.name-girls {
+  display: block;
+}
+.text-links-girl {
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  box-sizing: inherit;
+}
+.alphabet-circle {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 50%;
+  justify-content: center;
+  height: 35px;
+  width: 35px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1;
+  margin-right: 14px;
+  background-color: #ff8b7c;
+  box-sizing: inherit;
+}
+.alpha-a {
+  color: #016174;
+  text-decoration: none;
+  font-weight: 500;
+  border-bottom: 2px solid transparent;
+}
+.names-spacer {
+  flex-grow: 1;
+}
+.alphabet-circle-b {
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 50%;
+  justify-content: center;
+  height: 35px;
+  width: 35px;
+  color: #fff;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1;
+  margin-right: 14px;
+  background-color: #3cb6ce;
+  box-sizing: inherit;
+}
+/* section products */
+.expand-box-div {
+  display: block;
+  box-sizing: inherit;
+}
+.expand-product-header {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: transparent;
+  box-sizing: border-box;
+  border: 0;
+  margin: 0%;
+  border-radius: 0%;
+  text-decoration: none;
+  color: inherit;
+  width: 40px;
+  flex-shrink: 0;
+}
+.expand-box-inner {
+  display: block;
+  box-sizing: inherit;
+}
+.outer-wrap-product {
+  max-width: 2400px;
+  overflow: hidden;
+  height: 360px;
+  box-sizing: inherit;
+}
+.scroll-card-product {
+  display: flex;
+  align-items: flex-start;
+  overflow: auto;
+  height: 350px;
+}
+.expand-box-1 {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: auto;
+}
+/* latest news */
+.latest-news-box {
+  margin: 0 15px 25px;
+  max-width: 1300px;
+  width: 100%;
+}
+.promo-items-latest {
+  display: flex;
+  justify-content: flex-start;
+}
+.promo-item-card-latest {
+  margin-bottom: 10px;
+  max-width: 25%;
+  flex-basis: 25%;
+  padding: 8px;
+  box-sizing: inherit;
+}
+.latest-link-tag {
+  display: block;
+  text-decoration: none;
+  text-align: left;
+}
+.latest-img-box {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+.latest-span-img {
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  width: initial;
+  height: initial;
+  margin: 0%;
+  padding: 0%;
+  display: block;
+}
+.img-box {
+  position: absolute;
+  inset: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+  border: medium;
+  margin: auto;
+  display: block;
+  width: 0px;
+  height: 0px;
+  min-width: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.hover-text-latest {
+  font-weight: bold;
+  margin-bottom: 5px;
+  line-height: 1.375rem;
+  box-sizing: inherit;
+  border-bottom: 2px solid transparent;
+}
+.sub-title-latest {
+  font-size: 0.875rem;
+  line-height: 1.3rem;
+}
+/* footer section */
+.container-box-footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  max-width: 2400px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+  margin-top:60px;
+}
+.search-container {
+  width: 70%;
+  position: relative;
+}
+.search-input {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  background-color: #ecedeb;
+  border-radius: 5px;
+  padding-right: 40px; /* space for the icon */
+}
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+.div-promo-bg {
+  margin-bottom: 25px;
+  background-color: #ebf7fa;
+  background-image: url("https://assets.babycenter.com/ims/2020/03/leaf-bottom_left.svg"),
+    url("https://assets.babycenter.com/ims/2020/03/leaf-top_right.svg");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: bottom left, top right;
+}
+.app-promo-content {
+  display: flex;
+  padding-top: 40px;
+  text-align: left;
+  justify-content: center;
+}
+.app-promo-content-container {
+  max-width: 374px;
+  margin: 0 20px 20px;
+  text-align: left;
+}
+.content-cell-subtitle a{
+  cursor: pointer;
+}
+.heading-app {
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 2.25rem;
+  margin: 0 0 15px 0;
+  font-family: 'Montserrat','Arial',sans-serif
+}
+.app-body {
+  margin-bottom: 10px;
+  line-height: 162.5%;
+  letter-spacing: -0.1px;
+  box-sizing: inherit;
+  font-weight: 600;
+}
+.app-btn {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+.app-img-a {
+  overflow: hidden;
+  width: 100px;
+}
+.footer-content-bg {
+  background-color: #f2f6f6;
+  padding: 0 15px;
+}
+.footer-content {
+  max-width: 2400px;
+  margin: auto;
+}
+.trust-text {
+  margin-bottom: 25px;
+  padding: 25px 0;
+  border-bottom: 1px solid #c2c2bc;
+  line-height: 1.5rem;
+}
+.body-text {
+  color: #000;
+ box-sizing: inherit;
+  font-size: 1rem;
+  letter-spacing: -0.1px;
+  line-height: 162.5%;
+}
+.body-text a {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 6px;
+  text-decoration-color: #59c9df;
+  color: #000;
+  font-weight: 400;
+}
+.footer-links {
+  text-align: left;
+  margin: 20px 0 25px 0;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  box-sizing: border-box;
+  width: calc(100% + 8px);
+}
+.links-left-box {
+  padding-left: 8px;
+  padding-top: 8px;
+  box-sizing: inherit;
+  flex-basis: 50%;
+  max-width: 50%;
+  flex-grow: 0;
+}
+.links-left {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  box-sizing: border-box;
+  width: 100%;
+  box-sizing: inherit;
+}
+.link-header-left {
+  margin: 0%;
+  flex-basis: 100%;
+  flex-grow: 0;
+  max-width: 100%;
+  box-sizing: inherit;
+}
+.link-header-left h3 {
+  font-weight: 700;
+  margin: 0 0 15px 0;
+  font-size: 1.25rem
+}
+.links-tab {
+  text-align: left;
+  box-sizing: border-box;
+  margin: 0%;
+  flex-basis: 50%;
+  max-width: 50%;
+  flex-grow: 0;
+}
+.links-tab ul li a {
+  text-decoration: none;
+  color: #016174;
+  font-weight: 500;
+  font-size: 1rem;
+  letter-spacing: normal;
+  line-height: normal;
+  font-family: 'Montserrat','Arial',sans-serif;
+}
+.links-tab ul {
+  list-style-type: none;
+  box-sizing: inherit;
+  padding: 0%;
+  margin: 0%;
+  background-color: transparent;
+}
+.signup{
+  margin-left: 4px;
+}
+.links-tab ul li {
+  list-style-type: none;
+  margin-bottom: 1rem;
+  padding: 0%;
+}
+/* connect-footer */
+.footer-connect {
+  margin-bottom: 25px;
+  line-height: 175%;
+}
+.div-h3 {
+  font-weight: 700;
+  font-size: 1.125rem;
+  margin: 0 0 10px 0;
+  padding: 0%;
+}
+.footer-icons {
+  display: inline-flex;
+  box-sizing: inherit;
+}
+.img-icons-footer {
+  margin-left: 16px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #56584b;
+  background-image: url("https://assets.babycenter.com/ims/2019/11/icon_facebook_nobg.svg");
+  background-size: contain;
+}
+.footer-bottom {
+  padding: 25px 0 40px;
+  border-top: 1px solid #c2c2bc;
+}
+.bottom-box {
+  display: flex;
+  margin-bottom: 25px;
+}
+.sub-text {
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.375rem;
+  color: #56584b;
+}
+.sub-text a {
+  font-size: 1rem;
+  line-height: 1.375rem;
+  color: #56584b;
+  font-weight: 500;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}
+.bottom-end {
+  display: flex;
+  text-align: left;
+  box-sizing: inherit;
+}
+.fig-caption{
+  cursor: pointer;
+}.app-promo-content img{
+  min-width: 70px!important;
+}
+/* section tools BabyCenter */
+@media (min-width: 768px) {
+ .basic-link{
+  font-size: 12px;
+  font-weight: bold;
+ }.box2-img-div {
+    height: 35px;
+    margin: 2px 0;
+    width: auto;
+  }.box2-img {
+    max-width: 90px;
+    width: 100%;
+    text-align: center;
+  }.inner-div-box2 {
+    text-align: left;
+  }.inner-div-box2-des {
+    padding: 0 2px;
+  }.inner-div-box2-text {
+    width: 100%;
+    max-width: 100%;
+  }.body-text {
+    margin: 4px;
+  }.timeline {
+    margin-left: 15px;
+    margin-right: 15px;
+  }.scroll-control{
+      margin-left: 5%;
+      margin-right: 5%;
+    
+  }.tool-1{
+    flex-basis: 16.66%;
+    flex-grow: 0;
+    max-width: 16.66%;
+  }.name-girls {
+    padding-left: 0;
+  }.box-courses {
+    margin-left: 15px;
+    margin-right: 15px;
+  }.heading-app {
+    font-size: 1.5rem;
+    line-height: 2.25rem;  }
+  h3 {
+    line-height: 2.25rem;
+  }.container{
+    max-width: 100% !important;
+  }.promo-box{
+    flex-direction: row;
+    background-color: #85D1CA;
+    max-width: 700px;
+    box-sizing: inherit;
+  }.promo-img-cell{
+    align-items: flex-end;
+  }.promo-img-cell-image{
+    display: block;
+  }.promo-box-content-cell{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+  }.content-cell-detail{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 2.625rem;
+    margin: 0 0 15px 0;
+  }.content-cell-button{
+    padding-left: 40px;
+    padding-right: 40px;
+  }h2{
+    font-size: 1.875rem;
+    line-height: 2.625rem;
+    color: #000;
+    font-family: 'Domine','Georgia',serif;
+
+  }
+}
+@media (max-width: 520px) {
+  .share-ad-bg {
+    background-color: #f7f7f6;
+    text-align: center;
+    padding: 40px 0;
+    margin-top: 0%;
+  }.flex-container-section {
+    flex-direction: column;
+  }.items-inner-box {
+    flex-direction: column;
+  }.share-ad-box {
+    max-width: 732px;
+  }.name-girls {
+    flex-direction: column;
+  }.medical-list-wrap-left {
+    display: block;
+    width: auto;
+    cursor: pointer;
+  }.medical-list-wrap-right {
+    display: block;
+    width: auto;
+    cursor: pointer;
+  }.mobile-margin-box {
+    display: flex;
+    flex-direction: column;
+  }.mobile-desktop-box {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }.links-left {
+    flex-direction: column;
+  }.links-tab ul li {
+    flex-direction: column;
+    text-align: left;
+    justify-content: left;
+  }.carousel-caption h2 {
+    text-align: left;
+    position: relative;
+    display: inline-block;
+    font-size: 1.625rem;
+    font-family: "Domine", "Georgia", serif;
+    line-height: 28px;
+    margin-bottom: 34px;
+  
+  }.carousel-caption{
+    position: absolute;
+    bottom: 54px;
+    left: 0px;
+    right: 0px;
+    display: inline-block;
+    text-align: left !important;
+    width: 100%;
+    max-width: 320px;
+    padding: 0px 20px;
+     top: 70% ;
+  }.carousel-control-next-icon, .carousel-control-prev-icon{
+    width: 0 !important;
+  }.carousel{
+    width: 100%;
+  }.carousel-caption .btn-sign-up {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 0.3em;
+    font-family: 'Montserrat','Arial',sans-serif;
+  }.img-ban{
+    height: 450px !important;
+    border-radius: 15px;
+    margin: 0px auto;
+    object-fit: cover;
+    width: 100% !important;
+  }.tool-1{
+    box-sizing: border-box;
+   flex-grow: 0;
+   flex-basis: 33.3%;
+   max-width: 33.3%;
+  }.logo{
+    width: 140px;
+    height: 24px;
+    margin-top: 2px;
+  }.bell-icon{
+    width: 22px;
+    height: 22px;   
+  }.basic-link a{
+    font-size: 12px
+  }.offcanvas{
+    width: 70% !important;
+  }.side-bar-logo{
+    margin: auto;
+    width: 188px;
+    height: 30px;
+  }.dropdown-item{
+    padding-left: 2px !important;
+  }.fig-caption{
+    font-size: 12px;
+  }.content-cell-detail{
+    line-height: 2rem;
+    margin: 0 0 15px 0;
+  }.mobile-margin-box h2{
+    line-height: 2rem;
+      font-size: 1.375rem !important;
+      box-sizing: inherit;
+  }.accordion-button h4{
+    font-size: 20px;
+    font-weight: 700;
+    color: #000 !important;
+  }.accordion-button{
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  }.heading-app{
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    margin: 0 0 10px 0;
+    font-family: 'Montserrat','Arial',sans-serif;
+  }.app-btn-a{
+    display: none;
+  }.main-div{
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+/* Responsive Styles  */
+@media  (max-width: 1200px) { 
+  .nav-links-bar {
+    display: none;
+  }
+}
+@media only screen and (min-width: 767px) and (max-width: 1200px) {
+  .banner-img {
+    margin-top: 72px;
+  }.carousel-caption h2 {
+    font-size: 1.9rem;
+    color: #000;
+    font-weight: 700;
+    margin-top: 0px!important;
+    margin-bottom: 0%;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    font-family: "Domine", "Georgia", serif;
+  }.carousel-caption .btn-sign-up {
+    background-color: #0f8299;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 1rem;
+    margin-top: 5px!important;
+  }.img-ban{
+    height: 300px !important;
+  }.baby-center{
+    padding-top: 60px ;
+  }
+}
+/* Responsive Styles for Mobile  in latest on baby center */
+@media (max-width: 768px) {
+  .promo-item-card-latest {
+    flex-basis: 100%;
+  }.latest-img-box {
+    margin-bottom: 10px;
+  }.promo-textlinks-latest {
+    margin-left: 0;
+  }.promo-items-latest {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+  }.promo-item-card-latest {
+    margin-bottom: 10px;
+    max-width: 100%;
+    flex-basis: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }.latest-link-tag {
+    display: flex;
+    text-decoration: none;
+  }.latest-img-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }.latest-span-img {
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 100px;
+  }.img-latest {
+    width: 100px;
+    display: block;
+    border-radius: 5px;
+  }.promo-textlinks-latest {
+    flex-grow: 1;
+    margin-left: 10px;
+    box-sizing: border-box;
+  }.hover-text-latest {
+    font-weight: bold;
+    margin-bottom: 5px;
+    line-height: 1.375rem;
+    box-sizing: inherit;
+    border-bottom: 2px solid transparent;
+  }.sub-title-latest {
+    font-size: 0.875rem;
+    line-height: 1.3rem;
+  }.links-left-box {
+    flex-basis: 100%;
+    max-width: 100%;
+  }.links-tab {
+    flex-basis: 100%;
+    max-width: 100%;
+  } .mobile-margin {
+    margin-left: 15px;
+    margin-right: 15px;
+  }.share-ad-bg {
+    display: none;
+  }.sign-up {
+    display: none;
+  }.link-header-left {
+    flex-basis: 100%;
+    max-width: 100%;
+    flex-grow: 0;
+  }.carousel-caption h2 {
+    font-size: 1.3rem;
+    color: #000;
+    font-weight: 700;
+    margin-top: 0px!important;
+    margin-bottom: 0%;
+
+  }.carousel-caption .btn-sign-up {
+    background-color: #0f8299;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 1rem;
+    margin-top: 5px!important;
+  }.promo-spacer {
+    margin-left: 15px;
+    margin-right: 15px;
+  }.alphabet-names {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }.logo-bar {
+    position: static;
+  }.center-outer{
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 0%;
+    margin-top: 80px;
+  }.container{
+    max-width: 100% !important;
+  }.img-ban{
+    height: 250px;
+  }.offcanvas {
+    width: 100%;
+  }
+}
+@media  (min-width:1300){
+  
+}
+/* hover effect */
+.content-cell-button:hover{
+  background-color: #DC6757;
+  color: white;
+}
+.see-more-courses:hover{
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+  
+}
+.content-cell-subtitle a:hover{
+
+  color: #016174;
+}
+#blue-btn:hover{
+  background-color: #0D5B6B;
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+.btn-sign-up:hover{
+  background-color: #0D5B6B !important;
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+.see-more-wrapper-btn:hover{
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+.card-box:hover{
+  background-color: #A3D9C9;
+  color: #002F36;
+}
+.alpha-a:hover{
+  border-bottom: 2px solid transparent;
+  border-bottom-color: #1E93AA;
+ 
+}
+.hover-text-latest:hover {
+  border-bottom: 2px solid transparent;
+  border-bottom-color: #1E93AA;
+}
+.nav-hyperlinks:hover{
+  border-bottom: 2px solid transparent;
+  border-bottom-color: #1E93AA;
+}
+.links-tab a:hover{
+  border-bottom: 1px solid transparent;
+  border-bottom-color: #1E93AA;
+}
+.body-text a:hover{
+  
+  text-decoration-color: #016174;
+}
+.basic-link a:hover{
+  border-bottom: 2px solid transparent;
+  border-bottom-color: #1E93AA;
+}
+.signup:hover{
+  border-bottom: 2px solid #1E93AA;
+}
+.content-cell-subtitle a:hover{
+  border-bottom: 1px solid #1E93AA;
+}
+.person-name:hover{
+  border-bottom: 2px solid #1e93aa;
+}
+.sub-ovulation-links-a:hover{
+  border-bottom: 2px solid #1e93aa;
+
+}
+.fig-caption:hover{
+  border-bottom: 2px solid #1e93aa;
+  
+}

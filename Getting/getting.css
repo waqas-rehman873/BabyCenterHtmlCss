@@ -1,0 +1,621 @@
+.body{
+    color: #000;
+    font-family: 'Montserrat','Arial',sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: normal;
+    letter-spacing: normal 
+}
+.getting-pg-box{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.img-getting-box{
+    box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+    width: initial;
+    height: initial;
+    background: none;
+    opacity: 1;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+.img-getting{
+    position: absolute;
+    inset: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    border: none;
+    margin: auto;
+    display: block;
+    width: 0px;
+    height: 0px;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    max-height: 100%;
+    object-fit: cover
+}
+.img-span{
+    box-sizing: border-box;
+    display: block;
+    width: initial;
+    height: initial;
+    background: none;
+    opacity: 1;
+    border: 0px;
+    margin: 0px;
+    padding: 74.8792% 0px 0px;
+}
+.intro-txt-box{
+    display: flex;
+    justify-content: center;
+    box-sizing: inherit;
+}
+.intro-txt-content{
+    max-width: 752px;
+    box-sizing: inherit;
+}
+.hero-img{
+    width: 100%;
+}
+.body-txt-p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.body-txt-a{
+    border-bottom: 2px solid #3CB6CE;
+    text-decoration: none;
+    color: #000;
+}
+.img-divider{
+    border-bottom: 1px solid #3CB6CE;
+    height: 25px;                
+    text-align: center;
+}
+.divider-leaf{
+    position: relative;
+    top: 10px;
+    height: 26px;
+    width: 14px;
+    display: inline-block;
+    padding: 0 15px;
+    margin: auto;
+    background-image: url(https://assets.babycenter.com/ims/2020/05/ic_leafdivider.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;    
+}
+/* ?? */
+.heading-h2{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    padding: 0;
+    font-size:1.375rem ;
+    line-height: 2rem;
+    font-family: 'Montserrat','Arial',sans-serif;
+}
+.topic-items{
+   flex-basis: 0;
+   flex-grow: 1;
+}
+.img-container-topic{
+    position: relative;
+    box-sizing: inherit;
+}
+.shader-topic-img{
+    position: absolute;
+    width:100%;
+    bottom: 0;
+    margin: 0;
+    padding: 12px 18px;
+    background: linear-gradient(0deg,rgba(0,0,0,1) 0%,rgba(0,0,0,0) 100%);
+    box-sizing: inherit;
+}
+.topic-img-title{
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #FFF;
+    text-align: left;
+    font-family: 'Montserrat','Arial',sans-serif;
+    box-sizing: inherit;
+}
+.bullet-body-text{
+    text-align: left;
+    padding: 16px 0 0 19px;
+    color: #0F8299;
+    line-height: 162.5%;
+}
+.body-text-li{
+    margin: 0 0 25px 0;
+    position: relative;
+    padding-left: 20px;
+    display: list-item;
+    list-style-type: none;
+}
+.body-text-li::before{
+    content: '•';
+    color: #43A189;
+    position: absolute;
+    top: -5px;
+    left: 0;
+    font-weight: bold;
+    font-size: 2.5rem;
+    display: block;
+    width: 20px;
+}
+.body-text-li::after{
+    box-sizing: inherit;
+}
+.bullet-body-text-a{
+    border-bottom: none;
+    color: #016174;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Montserrat','Arial',sans-serif;
+    box-sizing: inherit;
+}
+.btn-see-all{
+    display: flex;
+    justify-content: center;
+    max-width: 176px;
+    padding: 9px 0 10px 0;
+    position: relative;
+    text-decoration: none;
+    text-transform: none;
+    height: auto;
+    color: #016174 !important;
+   border: 1px solid #016174;
+   border-radius: 4px;
+   font-weight: bold;
+   font-size: 1rem;
+   font-family: 'Montserrat','Arial',sans-serif;
+   margin: 0 ;
+}
+/* pg */
+.promo-items-pg{
+    border-bottom: 1px solid #C2C2BC;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.flex-handler-test{
+    box-sizing: inherit;
+}
+.pic-cont-test{
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-bottom: 10px;
+}
+.promo-title{
+    font-weight: bold;
+    line-height: 1.375rem;
+    margin-bottom: 5px;
+    color: #000;
+    box-sizing: inherit;
+}
+.promo-title-head{
+    font-weight: bold;
+    line-height: 1.375rem;
+    font-family: 'Montserrat','Arial',sans-serif;
+}.sub-title{
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    font-family: 'Montserrat','Arial',sans-serif;
+    color: #56584B;
+}
+.pregnancy-topics-semi{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media (min-width:768px){
+    .getting-pg-box{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      background-position: top right -5%,bottom left 53%;
+      background-size: 32% 35%,17% 28%;
+      background-repeat: no-repeat;
+      background-color: #F2F6F6;
+      background-image: url(https://assets.babycenter.com/ims/2021/02/topleaf.svg),url(https://assets.babycenter.com/ims/2021/02/bottomleaf3.svg);
+    }p{
+    padding: 0;
+    margin: 0 0 1em 0;
+    }.hero-img{
+        flex: 1;
+        border-bottom: 0;
+    }.intro-txt-box{
+        text-align: center;
+        flex: 1;
+        margin: 0;
+        padding: 20px 40px ;
+    }.img-divider{
+        margin: 50px 0;
+    }.heading-h2{
+      font-size: 1.875rem;
+      line-height: 2.625rem;
+      margin-top: 40px;
+      margin-bottom: 16px;
+    }.topic-items-box{
+        display: flex;
+        justify-content: flex-start;
+        box-sizing: inherit;
+    }.topic-items{
+        text-align: left;
+        max-width: 25%;
+        padding: 0 8px;
+        margin: 0 0 46px;
+    }.promo-items-pg{
+        border-bottom: none;
+        max-width: 25%;
+        flex-basis: 25%;
+        padding: 8px;
+    }.promo-box-test{
+       display: flex;
+       justify-content: flex-start;
+       margin: 0 6px;
+    }.links-baby-names{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }.links-baby-names-box{
+        margin-bottom: 0;
+    }.links-baby-names-box::after{
+      content: '•';
+      color: #C2C2BC;
+      display: inline-block;
+      width: 1em;
+    }.names-generator{
+      padding: 22px 24px 64px;
+    }
+}
+@media(max-width:768px){
+    .heading-h2{
+        margin-left: 15px;
+        margin-right: 15px;
+    }.topic-items{
+        text-align: left;
+        min-width: 40%;
+        padding: 0 8px;
+        margin: 0 0 46px;
+    }.topic-items-box{
+      display: flex;
+      flex-wrap: wrap;
+    }.btn-see-all{
+        margin: 0 auto;
+    }.flex-handler-test{
+       display: flex;
+       flex-direction: row-reverse;
+       justify-content: space-between;
+    }.pic-cont-test{
+       max-width: 80px;
+       max-height: 80px;
+       width: 80px;
+       aspect-ratio: 1/1;
+       height: 100%;
+       min-height: 80px;
+    }.promo-title{
+        flex-grow: 1;
+        margin-right: 4px;
+    }.links-baby-names-box{
+        margin-bottom: 9px;
+    }
+}
+@media(max-width:520px){
+    .topic-items-box{
+        display: flex;
+        flex-direction: column ;
+        flex-wrap: nowrap;
+    }.pregnancy-topics-semi{
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }.fine-print{
+        max-width: 438px;
+        margin: 0 auto 18px;
+    }
+}
+/* baby names-css */
+.search-bar-baby-names{
+    margin: 0.5rem 0 1.5rem;
+    position: relative;
+}
+.search-bar-body{
+    background-color: #FFF;
+    border-bottom: 1px solid #797A6E;
+    font-size: 14px;
+    font-family: 'Montserrat','Arial',sans-serif;
+    width: 100%;
+    border: 0;
+    padding: 13px 0 13px 2rem;
+    position: relative;
+    appearance: none;
+    border-radius: 2px;
+    background-color: #ECEDEB;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+    color: #56584B;
+}
+.search-div{
+    position: absolute;
+    top: 12px;
+    left: 7px;
+    color: #595B4E;
+    font-size: 22px;
+}
+.svg-search{
+    user-select: none;
+    width: 1em;
+    display: inline-block;
+    fill: currentColor;
+    font-size: 1.5rem;
+    transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    color: #595B4E;
+}
+/* baby-names-links */
+.links-baby-names{
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 15px 25px;
+    text-align: center;
+    font-family: 'Montserrat','Arial',sans-serif;
+    line-height: 2rem;
+}
+.baby-names-a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #016174;
+}
+/* names-generator */
+.names-gen-box{
+    background-color: rgb(237, 246, 242);
+  max-width: 842px;
+  margin: 0px auto 35px;
+  border-radius: 30px;
+}
+.names-generator{
+    position: relative;
+    box-sizing: inherit;
+}
+.names-generator-icon{
+    display: block;
+  margin: 0px auto 20px;
+}
+#leaves{
+    position: absolute;
+    width: 90px;
+    height: 70px;
+    pointer-events: none;
+}
+.leaf1{
+    top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-image: url(https://assets.babycenter.com/ims/2023/05/ic_bn_cornerLeaf.svg);
+  background-position: top left;
+}
+.leaf2{
+    top: -10px;
+  right: -11px;
+  background-repeat: no-repeat;
+  background-image: url(https://assets.babycenter.com/ims/2023/05/ic_bn_cornerLeaf.svg);
+  background-position: bottom right;
+  transform: rotate(90deg);
+}
+.leaf3{
+    bottom: -10px;
+  left: -11px;
+  background-repeat: no-repeat;
+  background-image: url(https://assets.babycenter.com/ims/2023/05/ic_bn_cornerLeaf.svg);
+  background-position: bottom left;
+  transform: rotate(270deg);
+}
+.leaf4{
+    top: calc(100% - 70px);
+    left: calc(100% - 90px);
+  background-repeat: no-repeat;
+  background-image: url(https://assets.babycenter.com/ims/2023/05/ic_bn_cornerLeaf.svg);
+  background-position: bottom left;
+  transform: rotate(180deg);
+}
+hr{
+  margin: 28px 0;
+  height: 1px;
+  background-color: inherit;
+  border-top: 1px solid #C2C2BC;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+}
+
+.generator-form{
+    max-width: 582px;
+  margin: 0px auto;
+}
+.heading-h3{
+    font-size: 16px;
+    text-align: left;
+    font-weight: 700;
+    font-family: 'Montserrat','Arial',sans-serif;
+}
+.one-line{
+    margin-bottom: 30px;
+    line-height: 62px;
+    font-family: 'Montserrat','Arial',sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.fine-print{
+    max-width: 438px;
+  margin: 0px auto 18px;
+  font-size: 0.75rem;
+  line-height: 1.125rem;
+  font-family: 'Montserrat','Arial',sans-serif;
+  color: #56584B;
+}
+.select-box{
+    width: 90px;
+    display: inline-flex;
+    min-width: 0%;
+    padding: 0%;
+    margin: 0%;
+    vertical-align: top ;
+    position: relative;
+    margin-top: 16px;
+  margin-bottom: 8px;
+line-height: normal;
+}
+.select-label{
+    color: #000;
+  font-family: 'Montserrat','Arial',sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.4375em;
+  letter-spacing: normal;
+  padding: 0;
+  margin: 0;
+  display: block;
+  transform-origin: top left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: calc(100% - 24px);
+  position: absolute;
+  left: 0;
+  transform: translate(14px, 16px) scale(1);
+  transition: color 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms,transform 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms,max-width 200ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+  z-index: 1;
+  pointer-events: none;
+  box-sizing: inherit;
+  top: -11px;
+}
+.box-label{
+    font-family: 'Montserrat','Arial',sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.4375em;
+    letter-spacing: normal;
+    color: #000;
+    padding: 0;
+    margin: 0;
+    height: 30px;
+    position: relative;
+    box-sizing: border-box;
+    cursor: text;
+    align-items: center;
+    border-radius: 0%;
+    width: 100%;
+    background-color: #FFF;
+}
+.box-label div{
+    height: auto;
+  min-height: 1.4375em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  user-select: none;
+  border-radius: 0;
+  cursor: pointer;
+  font: inherit;
+  letter-spacing: inherit;
+  color: currentColor;
+  border: 0;
+  box-sizing: content-box;
+  display: block;
+  width: 100%;
+  min-width: 0;
+  animation-duration: 10ms;
+  padding: 16.5px 14px;
+}
+.box-label div span{
+    cursor: pointer;
+  font: inherit;
+  letter-spacing: inherit;
+  color: currentColor;
+  white-space: nowrap;
+}
+.select-input{
+    bottom: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: 'Montserrat','Arial',sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.4375em;
+  letter-spacing: normal;
+  color: #000;
+  cursor: text;
+}
+.select-svg{
+    user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  position: absolute;
+  right: 7px;
+  top: calc(40% - .5em);
+  transition: fill 200ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-sizing: inherit;
+}
+.logo{
+    cursor: pointer;
+}
+.page-heading{
+    font-size: 1.75rem;
+  line-height: 2.25rem;
+  text-align: center;
+  margin: 0 0 24px 0;
+  font-weight: 600;
+  font-family: 'Domine','Georgia',serif;
+  color: #000;
+}
+.intro-txt-content h1{
+    font-weight: 600;
+}
+.body-txt-p{
+    color: #000;
+}
+.play-over-img{
+    position: absolute;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.log-in-header{
+    text-decoration: none;
+    color: #016174;
+}
+.sign-up a{
+    text-decoration: none;
+    color: #016174;
+    margin-left: 5px;
+}
+
+  /* hover */
+  .bullet-body-text-a:hover{
+    border-bottom:  1px solid #016174;
+  }
+  .btn-see-all:hover{
+    background-color: #F5F5F5;
+    cursor: pointer;
+  }
+  .body-txt-a:hover{
+    border-bottom: 2px solid #144e5a;
+  }

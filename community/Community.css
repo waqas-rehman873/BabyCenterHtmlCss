@@ -1,0 +1,307 @@
+body{
+    color: #000;
+    font-family: 'Montserrat','Arial',sans-serif;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: normal;
+    letter-spacing: normal
+}.left-side-comm{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    display: block;
+}
+
+.comm-box{
+    box-sizing: border-box;
+    padding-left: 3%;
+    padding-right: 3%;
+
+}
+.links-comm-box{
+    overflow: hidden;
+    min-height: 48px;
+    display: flex;
+    border-bottom: 1px solid #C2C2BC ;
+}
+.links-comm{
+    position: relative;
+    display: inline-block;
+    flex: 1 1 auto;
+    overflow-x: auto;
+    overflow-y: hidden;
+    box-sizing: inherit;
+}
+.comm-nav-a{
+display: inline-flex;
+align-items: center;
+justify-content: center;
+box-sizing: border-box;
+border-radius: 0;
+font-size: 0.875rem;
+line-height: 1.25;
+max-width: 360px;
+flex-shrink: 0;
+text-align: center;
+min-height: 48px;
+text-decoration: none;
+min-height: 48px;
+flex-direction: column;
+color: #3C6704;
+font-weight: 500;
+font-family: 'Montserrat','Arial',sans-serif;
+text-transform: none;
+letter-spacing: normal;
+padding: 0 10px;
+width: auto;
+min-width: auto;
+}
+.comm-nav-a:hover{
+    background-color: #F7F7F6;
+}
+.home-comm{
+    margin-top: 20px;
+}
+.body-text-p{
+    letter-spacing: -0.1px;
+    line-height: 162.5%
+} 
+.body-text-p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 25px !important;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #C2C2BC ;
+}
+.paragraph-home{
+    border-bottom: 2px solid #3CB6CE;
+    text-decoration: none;
+    color:#000;
+}
+.comm-nav-a.active {
+    background-color: #f7f7f6;
+    font-weight: bold;
+    border-bottom-color: green;
+    border-bottom: 2px solid green;
+  }
+
+/* .comm-nav-a:visited {
+    background-color: #f7f7f6;
+    font-weight: bold;
+    color: #3C6704;
+    opacity: 1;
+}
+.comm-nav-a.active {
+    background-color: #f7f7f6;
+    font-weight: bold;
+    border-bottom-color: green;
+    border-bottom: 2px solid green;
+} */
+/* style comment section  */
+.comment-list{  
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.li-comment-list{
+    display: list-item;
+    padding: 0%;
+    border-bottom: 1px solid rgb(194, 194, 188);
+    padding-bottom: 6px;
+    box-sizing: inherit;
+}
+.group-link{
+    font-size: 0.9rem;
+    display: inline-block;
+    padding: 2px 0.75rem;
+    padding-bottom: 0.5rem;
+    background-color: rgb(235, 247, 250);
+    text-decoration: none;
+    color: #000;
+    box-sizing: inherit;
+}
+.group-text-only{
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    font-size: initial;
+    background-color: rgb(255, 255, 255);
+}
+.text-title{
+    font-size: initial;
+    text-align: left;
+    box-sizing: inherit;
+   
+
+}
+.img-group{
+    margin-left: 5px;
+}
+.title-group a{
+    text-decoration: none;
+    color: #000;
+}
+.text-title-a{
+    font-weight: 500;
+    line-height: 162.5%;
+    box-sizing: inherit;
+    text-decoration: none;
+    color: #000;
+}
+.text-name-icon{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+    font-size: 1.25rem;
+    line-height: 1;
+    border-radius: 50%;
+    overflow: hidden;
+    user-select: none;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    cursor: default;
+    background-color: rgb(163, 138, 95);
+    width: 20px !important;
+    height: 20px !important;
+    margin-right: 6px;
+}
+.icon-alpha{
+    color: rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    flex-shrink: 0;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    box-sizing: inherit;
+    line-height: 1;
+    overflow: hidden;
+}
+.name-comment{
+    font-family: 'Montserrat','Arial',sans-serif;
+    color: #56584B;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    box-sizing: inherit;
+}
+.body-text-comment{
+    font-size: 0.875rem;
+    text-overflow: ellipsis;
+    margin: 5px 0;
+    overflow: hidden;
+}
+.heart-div {
+    display: flex;
+    color: #56584B;
+    font-size: 2px;
+    font-weight: 400;
+    padding: 10px 0;
+    margin-left: 20px;
+    box-sizing: inherit;
+}
+.heart img {
+    position: relative;
+    width: 18px;
+    height: 18px;
+    z-index: 4;
+    right: 0%;
+    box-sizing: inherit;}
+.social-box {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    text-align: left;
+    font-size: initial;}
+.comment-div::before {
+    content: '';
+    background-image: url(https://assets.babycenter.com/ims/2020/02/commentCount.svg);
+    background-size: contain;
+    width: 16px;
+    height: 16px;
+    margin-right: 4px;
+    display: inline-block;
+    font-size: 0.75rem;
+    line-height: 1.125rem;
+    margin-top: 3px;
+}
+.home-comm {
+    margin-top: 20px;
+}
+.comm-box {
+    box-sizing: border-box;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.left-side-comm {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    display: block;
+}
+.dis-box-img{
+    display: flex;
+  position: relative;
+  top: 7px;
+}
+.more-topics-discover{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.img-more-discover{
+    margin-bottom: 5px;
+  border-radius: 10px;
+}
+.more-topics-discover li{
+    width: 30%;
+  margin: 20px auto auto auto;
+  text-align: center;
+  list-style-type: none;
+}
+.fig-more{
+    line-height: 22px;
+  margin: 0;
+}
+.fig-more a{
+    text-decoration: none;
+    color: #000;
+}
+/* // */
+@media (max-width: 1270px){
+.community-box {
+    padding-top: 60px;
+}
+}
+@media (max-width: 768px){
+    .community-box {
+        padding-top: 0px;
+    }
+    }
+@media (min-width: 768px){
+.community-box {
+    width: 60% !important; 
+}
+.community-box {
+    width: 100%;
+}
+}
+.title-group a:hover{
+    border-bottom: 2px solid #016174;
+}
+.fig-more a:hover{
+    border-bottom:2px solid #016174;
+}

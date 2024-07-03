@@ -1,0 +1,277 @@
+.img-registry{
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+.img-registry-small{
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+}
+.heading-registry-icon{
+    display:flex;
+    align-items: center ;
+    justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 32px;
+  text-transform: uppercase;
+  color: #016174;
+}
+.heading-registry-h1{
+    font-size: 1.85rem;
+  line-height: 2.25rem;
+  text-align: center;
+  font-weight: normal;
+  font-family: 'Domine','Georgia',serif;
+  margin: 0 0 24px 0;
+  margin-bottom:12px;
+}
+.compare-list{
+    width: 100%;
+  overflow-x: scroll;
+  margin-right: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  -moz-box-align: stretch;
+  align-items: stretch;
+  flex-shrink: 0;
+}
+.item-card{
+    margin-bottom: 20px;
+  max-width: 100%;
+  flex-shrink: 0;
+  padding-top: 20px;
+}
+.compare-item{
+    padding-top: 20px;
+  position: relative;
+  overflow-y: visible !important;
+  border: 1px solid rgb(224, 225, 221);
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 0px 2px;
+  background-color: rgb(255, 255, 255);
+  margin: 5px;
+    margin-left: 5px;
+  padding: 9px 14px 20px;
+    padding-top: 9px;
+  overflow-y: auto;
+  height: 100%;
+}
+.round-logo{
+    position: absolute;
+  top: -33px;
+  width: 66px;
+  height: 66px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0px;
+  right: 0px;
+  text-align: center;
+  background-color: rgb(235, 247, 250);
+}
+.round-logo img{
+    position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 50px;
+  height: 50px;
+  max-width: 100%;
+  height: auto;
+}
+.outer-body-item{
+    box-sizing: border-box;
+  display: flex;
+  flex-flow: wrap;
+  width: 100%;
+  margin: 0px auto;
+  max-width: 1300px;
+}
+.body-item{
+    box-sizing: border-box;
+  margin: 0;
+  flex-direction: row;
+    flex-basis: 100%;
+    flex-grow: 0;
+  max-width: 100%;
+  padding: 0;
+}
+.body-card-list{
+    text-align: left;
+    line-height: normal;
+    list-style-type: none;
+}
+.body-card-list li {
+    background: url("https://assets.babycenter.com/ims/2021/04/img_checkbullet.svg") left 1px no-repeat;
+  padding-left: 20px;
+  padding-left: 20px;
+  margin: 0px 0px 15px;
+  list-style-type: none;
+}
+.basic-links{
+    text-align: left;
+  margin-left: 19px;
+  margin-bottom: 18px;
+  font-weight: bold;
+}
+.basic-links a{
+    text-decoration: none;
+  border-bottom: none;
+  color: #016174;
+}
+.card-item-btn{
+    height: auto;
+  line-height: normal;
+  padding-top: 14px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-decoration: none;
+  min-width: 64px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: #fff;
+  background-color: #0F8299;
+  font-size: 18px;
+  box-shadow: none;
+  border-radius: 4px;
+  color: #FFF;
+  border-style: none;
+}
+/*  */
+.quiz-container{
+    background-color: #E7F2D9;
+    padding: 20px;
+    text-align:center;
+    margin:5px 0;
+}
+.quiz-container h4{
+    margin: 8px 0 20px;
+    font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  font-family: 'Montserrat','Arial',sans-serif;
+}
+.registry-banner-box{
+    background-color: #EBF7FA;
+  padding: 33px 15px 15px;
+  margin-bottom: 40px;
+}
+.benefit-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+.benefit-img{
+    margin:0 auto 25px;
+    overflow: hidden;
+}
+.benefit-item-box{
+
+  margin-bottom: 25px;
+  flex-grow: 1  ;
+}
+.benefit-item-btn{
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+.expand-collapse::before{
+    content: "";
+    position: absolute;
+    right: 11px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 11px;
+    width: 17px;
+    transition: all 0.1s linear;
+  background: url(https://assets.babycenter.com/ims/2021/06/ic_itemexpand.svg) no-repeat center;
+}
+.benefit-text a{
+    text-decoration: none;
+    color: #000;
+    border-bottom: 2px solid #016174;
+
+}
+.benefit-item-btn h4{
+    color: #000;
+    position: relative;
+    flex-grow: 1;
+    margin-bottom: 0%;
+    font-weight: 700;
+  font-size: 1.125rem;
+  margin: 0 0 10px 0;
+}
+.benefit-text{
+    margin-left: 60px;
+    color: #000;
+}
+@media (min-width:768px) {
+    .img-registry{
+    display: none;
+    }.img-registry-small{
+        display: block;
+        margin: auto;
+    }.quiz-box{
+        display: flex;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-bottom: 5px;
+    justify-content: center;
+    }.quiz-container{
+        margin: 2px;
+    }.flex-medium{
+        display: flex;
+    }.benefit-img{
+        margin-right: 10px;
+    }.benefit-item-box{
+        width: 50%;
+        padding-right: 10px;
+    }.benefit-item-btn{
+        cursor: none;
+        pointer-events: none;
+
+    }.expand-collapse{
+        background: none;
+    }.expand-collapse::before{
+        background: none;
+    }.benefit-item-btn h4{
+        line-height: 1.625rem;
+        padding-right: 0%;
+    }.compare-list{
+        justify-content: center;
+    }
+    
+}
+@media (max-width:768px) {
+    .img-registry{
+    display: block;
+    margin: auto;
+    }.img-registry-small{
+        display: none;
+    
+    }.expand-collapse{
+        font-weight: bold;
+        font-size: 0.8rem;
+    }
+    
+}
+
+@media (max-width:520px) {
+    .benefit-img{
+        width: 225px;
+    }
+}
+
+.card-item-btn:hover{
+    background-color: #03424e;
+}
